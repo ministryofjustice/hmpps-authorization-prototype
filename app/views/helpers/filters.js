@@ -7,4 +7,7 @@ const govukPrototypeKit = require('govuk-prototype-kit')
 const addFilter = govukPrototypeKit.views.addFilter
 
 // Add your filters here
+addFilter('toLines', function (content) {
+    return content.join("/n")
+})
 

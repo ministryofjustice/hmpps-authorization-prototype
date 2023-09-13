@@ -1,0 +1,181 @@
+{% extends "layouts/main.html" %}
+{%- from "moj/components/header/macro.njk" import mojHeader -%}
+{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
+{% from "govuk/components/input/macro.njk" import govukInput %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/label/macro.njk" import govukLabel %}
+{% from "govuk/components/back-link/macro.njk" import govukBackLink %}
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+
+
+
+{% set pageName="Edit deployment details" %}
+
+{% block header %}
+  {% include "partials/moj_header.html" %}
+{% endblock %}
+
+{% block content %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/clients/" + client.client_id
+  }) }}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">
+      Edit deployment details
+    </h1>
+
+    {{ govukSummaryList({
+      rows: [
+        {
+          key: {
+            text: "Client id"
+          },
+          value: {
+            text: client.client_id
+          }
+        }
+      ]
+    }) }}
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+
+    {{ govukInput({
+      label: {
+        text: "Team"
+      },
+      id: "team",
+      name: "team",
+      text: client.deployment_details.team
+    }) }}
+
+  {{ govukInput({
+    label: {
+      text: "Team contact"
+    },
+    id: "team-contact",
+    name: "teamContact",
+    text: client.deployment_details.team_contact
+  }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Team slack channel"
+        },
+        id: "team-slack",
+        name: "teamSlack",
+        text: client.deployment_details.team_slack_channel
+      }) }}
+
+        </div>
+      </div>
+
+          {{ govukRadios({
+            classes: "govuk-radios--inline",
+            name: "hosting",
+            fieldset: {
+              legend: {
+                text: "Hosting",
+                isPageHeading: false
+              }
+            },
+            items: [
+              {
+                value: "cloud-platform",
+                text: "Cloud Platform"
+              },
+              {
+                value: "other",
+                text: "Other"
+              }
+            ]
+          }) }}
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+      {{ govukInput({
+        label: {
+          text: "Namespace"
+        },
+        id: "namespace",
+        name: "namespace",
+        text: client.deployment_details.namespace
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Deployment"
+        },
+        id: "deployment",
+        name: "deployment",
+        text: client.deployment_details.deployment
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Secret name"
+        },
+        id: "secret-name",
+        name: "secretName",
+        text: client.deployment_details.secret_name
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Client id key"
+        },
+        id: "client-id-key",
+        name: "clientIdKey",
+        text: client.deployment_details.client_id_key
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Secret key"
+        },
+        id: "secret-key",
+        name: "secretKey",
+        text: client.deployment_details.secret_key
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Team slack channel"
+        },
+        id: "team-slack",
+        name: "teamSlack",
+        text: client.deployment_details.team_slack_channel
+      }) }}
+
+        </div>
+      </div>
+
+      {{ govukTextarea({
+        name: "deploymentInfo",
+        id: "deployment-info",
+        label: {
+          text: "Deployment info",
+          isPageHeading: false
+        },
+        value: client.deployment_details.deployment_info
+      }) }}
+
+      <div class="govuk-button-group">
+        {{ govukButton({
+          text: "Save"
+        }) }}
+        <a href="/clients/{{ client.client_id }}" role="button" class="govuk-button govuk-button--secondary">Cancel</a>
+      </div>
+  </div>
+
+
+  </div>
+
+{% endblock %}

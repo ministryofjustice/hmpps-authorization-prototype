@@ -1,0 +1,270 @@
+{% extends "layouts/main.html" %}
+{%- from "moj/components/header/macro.njk" import mojHeader -%}
+{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
+{% from "govuk/components/input/macro.njk" import govukInput %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/label/macro.njk" import govukLabel %}
+{% from "govuk/components/back-link/macro.njk" import govukBackLink %}
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+
+{% set pageName="Add client" %}
+
+{% block header %}
+  {% include "partials/moj_header.html" %}
+{% endblock %}
+
+{% block content %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Add client
+      </h1>
+
+      {{ govukCheckboxes({
+        name: "expiry",
+        fieldset: {
+          legend: {
+            text: "Client expiry",
+            isPageHeading: false,
+            classes: "govuk-fieldset__legend--m"
+          }
+        },
+        items: [
+          {
+            value: "expire",
+            text: "allow client to expire",
+            checked: client.config.do_expire,
+            conditional: {
+            html: "<label class=\"govuk-label\" for=\"expiry-days\">Number of days client is currently valid for</label><input class=\"govuk-input govuk-!-width-one-quarter\" id=\"expiry-days\" name=\"expiryDays\" value=\"\" type=\"text\">"
+          }
+          }
+        ]
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "JIRA number",
+          classes: "govuk-label--m",
+          isPageHeading: false
+        },
+        hint: {
+          text: "Jira ticket number e.g. DT-2264 - ticket provides audit for client request/approvals"
+        },
+        id: "jira",
+        name: "jira",
+        classes: "govuk-!-width-one-third"
+      }) }}
+
+      <h2 class="govuk-heading-m">Client details</h2>
+      {{ govukInput({
+        label: {
+          text: "Client ID",
+          isPageHeading: false
+        },
+        id: "client-details",
+        name: "clientDetails",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukTextarea({
+        name: "redirectUris",
+        id: "redirect-uris",
+        label: {
+          text: "Registered redirect URIs",
+          isPageHeading: false
+        }
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Access token validity",
+          isPageHeading: false
+        },
+        id: "access-token",
+        name: "accessToken",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Refresh token validity",
+          isPageHeading: false
+        },
+        id: "refresh-token",
+        name: "refreshToken",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Resource IDs",
+          isPageHeading: false
+        },
+        id: "resource-ids",
+        name: "resourceIds",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Approved Scopes",
+          isPageHeading: false
+        },
+        id: "approved-scopes",
+        name: "approvedScopes",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukTextarea({
+        name: "authorities",
+        id: "authorities",
+        label: {
+          text: "Authorities",
+          isPageHeading: false
+        }
+      }) }}
+
+
+      {{ govukCheckboxes({
+        name: "grant-types",
+        fieldset: {
+          legend: {
+            text: "Grant types",
+            isPageHeading: false
+          }
+        },
+        items: [
+          {
+            value: "client_credentials",
+            text: "Client credentials"
+          },{
+            value: "authorization_code",
+            text: "Authorization Code",
+            disabled: true
+          }
+        ]
+      }) }}
+
+      {{ govukTextarea({
+        name: "allowedIPs",
+        id: "allowed-ips",
+        hint: {
+          html: "One IP address/CIDR notation per line </br> 81.134.202.29/32 - mojvpn </br>  35.176.93.186/32 - global-protect </br> 35.178.209.113/32 - cloudplatform-1 </br> 3.8.51.207/32 - cloudplatform-2 </br> 35.177.252.54/32 - cloudplatform-3"
+        },
+        label: {
+          text: "Allowed IPs",
+          isPageHeading: false
+        }
+      }) }}
+
+
+      {{ govukInput({
+        label: {
+          text: "JWT Fields Configuration",
+          isPageHeading: false
+        },
+        hint: {
+          text: "Comma separated list of fields, prefixed with + to add, - to remove e.g. +name,-user_id"
+        },
+        id: "approved-scopes",
+        name: "approvedScopes",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukCheckboxes({
+        name: "azure",
+        fieldset: {
+          legend: {
+            text: "Azure Ad Login Flow",
+            isPageHeading: false
+          },
+          hint: {
+            text: "Customize behaviour of Azure AD login"
+          }
+        },
+        items: [
+          {
+            value: "redirect",
+            text: "Auto redirect"
+          }
+        ]
+      }) }}
+
+      {{ govukRadios({
+        name: "mfa",
+        fieldset: {
+          legend: {
+            text: "Multi Factor Authentication"
+          }
+        },
+        hint: {
+          text: "Require additional verification to access this service"
+        },
+        items: [
+          {
+            value: "none",
+            text: "None"
+          },
+          {
+            value: "untrusted",
+            text: "Access from untrusted networks"
+          },
+          {
+            value: "all",
+            text: "Access from all networks"
+          }
+        ]
+      }) }}
+
+      {{ govukCheckboxes({
+        name: "mfaRememberMe",
+        fieldset: {
+          legend: {
+            text: "MFA remember me for 7 days option",
+            isPageHeading: false
+          },
+          hint: {
+            text: "Auth will provide a checkbox to remember a successful MFA sign in and if ticked will only prompt every 7 days for MFA (requires MFA)"
+          }
+        },
+        items: [
+          {
+            value: "remember-me",
+            text: "MFA remember me"
+          }
+        ]
+      }) }}
+
+      {{
+      govukInput({
+        label: {
+          text: "Database Username"
+        },
+        hint: {
+          text: "For client credentials only, the username to \"alias\" in database when changing data e.g. API_USER"
+        },
+        classes: "govuk-!-width-one-third",
+        id: "database-username",
+        name: "databaseUsername"
+      }) }}
+
+
+      <div class="govuk-button-group">
+        {{ govukButton({
+          text: "Save"
+        }) }}
+        <a href="/" role="button" class="govuk-button govuk-button--secondary">Cancel</a>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+{% endblock %}
