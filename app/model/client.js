@@ -1,13 +1,12 @@
-class Client {
+class BaseClient {
     constructor(clientData) {
         this.deployment_details = {}
         this.config = {}
 
-        this.client_id = clientData.client_id || "";
-        this.created = clientData.created || "";
-        this.secret_updated = clientData.secret_updated || "";
-        this.last_accessed = clientData.last_accessed || "";
-
+        this.base_client_id = getBaseClientId(clientData.client_id)
+        this.clients = [
+            new Client(clientData)
+        ]
 
         this.deployment_details.client_type = clientData.client_type || null;
         this.deployment_details.team = clientData.team || null;
@@ -41,7 +40,6 @@ class Client {
         this.additional_information.databaseUsernameField = additionalObj.databaseUsernameField || '';
 
 
-
         this.autoapprove = clientData.autoapprove || "";
         this.client_secret = clientData.client_secret || "";
 
@@ -49,6 +47,9 @@ class Client {
         this.config.client_end_date = clientData.client_end_date || null;
         this.config.days_to_expire = this.getExpiryDays(this.config.client_end_date)
         this.config.do_expire = this.config.days_to_expire > 0
+
+        this.secret_updated = this.clients[0].secret_updated
+        this.last_accessed = this.clients[0].last_accessed
     }
 
     getExpiryDays = (end_date_str) => {
@@ -68,8 +69,46 @@ class Client {
     setExpiryDays = (daysToExpire) => {
         return 0
     }
+
+    addClient = (clientData) => {
+        this.clients.push(new Client(clientData))
+        const secretDates = this.clients.map(item => item.secret_updated)
+        const lastAccessedDates = this.clients.map(item => item.last_accessed)
+        secretDates.sort()
+        lastAccessedDates.sort()
+
+        this.secret_updated = secretDates.pop().split(".")[0]
+        this.last_accessed = lastAccessedDates.pop().split(".")[0]
+    }
+
+
+}
+
+class Client {
+    constructor(clientData) {
+        this.client_id = clientData.client_id || "";
+        this.created = clientData.created.split(".")[0] || "";
+        this.secret_updated = clientData.secret_updated.split(".")[0] || "";
+        this.last_accessed = clientData.last_accessed.split(".")[0] || "";
+    }
+}
+
+getBaseClientId = (client_id) => {
+    let sections = client_id.split("-")
+    if(sections.length > 1 && isInteger(sections[sections.length -1])) {
+        sections.pop()
+    }
+    return sections.join("-")
+}
+
+isInteger = (str) => {
+    if (typeof str != "string") return false // we only process strings!
+    return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
+        !isNaN(parseInt(str)) // ...and ensure strings of whitespace fail
 }
 
 module.exports = {
-    Client: Client
+    Client: Client,
+    BaseClient: BaseClient,
+    getBaseClientId: getBaseClientId
 }

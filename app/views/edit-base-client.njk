@@ -27,7 +27,7 @@
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-xl">
-        Edit client: {{ client.client_id }}
+        Edit client: {{ baseClient.client_id }}
       </h1>
 
       {{ govukTable({
@@ -45,19 +45,7 @@
             text: "Last accessed"
           }
         ],
-        rows: [
-          [
-            {
-              text: client.client_id
-            },{
-            text: client.created
-          },{
-            text: client.secret_updated
-          },{
-            text: client.last_accessed
-          }
-          ]
-        ]
+        rows: presenter.all_clients_table
       }) }}
 
       <div class="govuk-grid-row" style="width: 100%">
@@ -80,7 +68,7 @@
           <h2 class="govuk-heading-l">Deployment details</h2>
         </div>
         <div class="govuk-grid-column-one-third">
-          <a class="govuk-link" href="/clients/{{ client.client_id }}/edit-deployment-details">Change deployment details</a>
+          <a class="govuk-link" href="/clients/{{ baseClient.base_client_id }}/edit-deployment-details">Change deployment details</a>
         </div>
       </div>
 
@@ -91,70 +79,70 @@
             {
               text: "Client type"
             },{
-            text: client.Service
+            text: baseClient.Service
           }
           ],
           [
             {
               text: "Team"
             },{
-            text: client.deployment_details.team
+            text: baseClient.deployment_details.team
           }
           ],
           [
             {
               text: "Team contact"
             },{
-            text: client.deployment_details.team_contact
+            text: baseClient.deployment_details.team_contact
           }
           ],
           [
             {
               text: "Hosting"
             },{
-            text: client.deployment_details.hosting
+            text: baseClient.deployment_details.hosting
           }
           ],
           [
             {
               text: "Namespace"
             },{
-            text: client.deployment_details.namespace
+            text: baseClient.deployment_details.namespace
           }
           ],
           [
             {
               text: "Deployment"
             },{
-            text: client.deployment_details.deployment
+            text: baseClient.deployment_details.deployment
           }
           ],
           [
             {
               text: "Secret name"
             },{
-            text: client.deployment_details.secret_name
+            text: baseClient.deployment_details.secret_name
           }
           ],
           [
             {
               text: "Client id key"
             },{
-            text: client.deployment_details.client_id_key
+            text: baseClient.deployment_details.client_id_key
           }
           ],
           [
             {
               text: "Secret key"
             },{
-            text: client.deployment_details.secret_key
+            text: baseClient.deployment_details.secret_key
           }
           ],
           [
             {
               text: "Deployment info"
             },{
-            text: client.deployment_details.deployment_info
+            text: baseClient.deployment_details.deployment_info
           }
           ]
 
@@ -174,9 +162,9 @@
           {
             value: "expire",
             text: "allow client to expire",
-            checked: client.config.do_expire,
+            checked: baseClient.config.do_expire,
             conditional: {
-            html: "<label class=\"govuk-label\" for=\"expiry-days\">Number of days client is currently valid for</label><input class=\"govuk-input govuk-!-width-one-quarter\" id=\"expiry-days\" name=\"expiryDays\" value=\"" + client.config.days_to_expire + "\" type=\"text\">"
+            html: "<label class=\"govuk-label\" for=\"expiry-days\">Number of days client is currently valid for</label><input class=\"govuk-input govuk-!-width-one-quarter\" id=\"expiry-days\" name=\"expiryDays\" value=\"" + baseClient.config.days_to_expire + "\" type=\"text\">"
           }
           }
         ]
@@ -193,7 +181,7 @@
         },
         id: "jira",
         name: "jira",
-        text: client.additional_information.jiraNo
+        text: baseClient.additional_information.jiraNo
       }) }}
 
       <h2 class="govuk-heading-l">
@@ -217,7 +205,7 @@
         classes: "govuk-!-width-one-third",
         id: "access-token-validity",
         name: "accessTokenValidity",
-        text: client.access_token_validity
+        text: baseClient.access_token_validity
       }) }}
 
       {{ govukInput({
@@ -227,7 +215,7 @@
         classes: "govuk-!-width-one-third",
         id: "refresh-token-validity",
         name: "refreshTokenValidity",
-        text: client.refresh_token_validity
+        text: baseClient.refresh_token_validity
       }) }}
 
       {{ govukInput({
@@ -246,7 +234,7 @@
         classes: "govuk-!-width-one-third",
         id: "approved-scopes",
         name: "approvedScopes",
-        text: client.scope
+        text: baseClient.scope
       }) }}
 
       {{ govukTextarea({
@@ -301,7 +289,7 @@
         classes: "govuk-!-width-one-third",
         id: "jwt-fields",
         name: "jwtFields",
-        text: client.additional_information.jwtFields
+        text: baseClient.additional_information.jwtFields
       }) }}
 
 
@@ -320,7 +308,7 @@
           {
             value: "redirect",
             text: "Auto redirect",
-            checked: client.additional_information.skipToAzureField
+            checked: baseClient.additional_information.skipToAzureField
           }
         ]
       }) }}
@@ -382,7 +370,7 @@
         classes: "govuk-!-width-one-third",
         id: "database-username",
         name: "databaseUsername",
-        text: client.additional_information.databaseUsernameField
+        text: baseClient.additional_information.databaseUsernameField
       }) }}
 
     <div class="govuk-button-group">

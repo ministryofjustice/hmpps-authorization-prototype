@@ -27,6 +27,43 @@
         Add client
       </h1>
 
+      <h2 class="govuk-heading-l">Common</h2>
+
+
+      <h2 class="govuk-heading-m">Client details</h2>
+      {{ govukInput({
+        label: {
+          text: "Client ID",
+          isPageHeading: false
+        },
+        id: "client-details",
+        name: "clientDetails",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Access token validity",
+          isPageHeading: false
+        },
+        id: "access-token",
+        name: "accessToken",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Approved Scopes",
+          isPageHeading: false
+        },
+        hint: {
+          text: "read, write, ..."
+        },
+        id: "approved-scopes",
+        name: "approvedScopes",
+        classes: "govuk-!-width-two-thirds"
+      }) }}
+
       {{ govukCheckboxes({
         name: "expiry",
         fieldset: {
@@ -62,65 +99,20 @@
         classes: "govuk-!-width-one-third"
       }) }}
 
-      <h2 class="govuk-heading-m">Client details</h2>
-      {{ govukInput({
-        label: {
-          text: "Client ID",
-          isPageHeading: false
-        },
-        id: "client-details",
-        name: "clientDetails",
-        classes: "govuk-!-width-two-thirds"
-      }) }}
 
       {{ govukTextarea({
-        name: "redirectUris",
-        id: "redirect-uris",
+        name: "allowedIPs",
+        id: "allowed-ips",
+        hint: {
+          html: "One IP address/CIDR notation per line </br> 81.134.202.29/32 - mojvpn </br>  35.176.93.186/32 - global-protect </br> 35.178.209.113/32 - cloudplatform-1 </br> 3.8.51.207/32 - cloudplatform-2 </br> 35.177.252.54/32 - cloudplatform-3"
+        },
         label: {
-          text: "Registered redirect URIs",
+          text: "Allowed IPs",
           isPageHeading: false
         }
       }) }}
 
-      {{ govukInput({
-        label: {
-          text: "Access token validity",
-          isPageHeading: false
-        },
-        id: "access-token",
-        name: "accessToken",
-        classes: "govuk-!-width-two-thirds"
-      }) }}
-
-      {{ govukInput({
-        label: {
-          text: "Refresh token validity",
-          isPageHeading: false
-        },
-        id: "refresh-token",
-        name: "refreshToken",
-        classes: "govuk-!-width-two-thirds"
-      }) }}
-
-      {{ govukInput({
-        label: {
-          text: "Resource IDs",
-          isPageHeading: false
-        },
-        id: "resource-ids",
-        name: "resourceIds",
-        classes: "govuk-!-width-two-thirds"
-      }) }}
-
-      {{ govukInput({
-        label: {
-          text: "Approved Scopes",
-          isPageHeading: false
-        },
-        id: "approved-scopes",
-        name: "approvedScopes",
-        classes: "govuk-!-width-two-thirds"
-      }) }}
+      <h2 class="govuk-heading-l">Client credentials</h2>
 
       {{ govukTextarea({
         name: "authorities",
@@ -132,34 +124,26 @@
       }) }}
 
 
-      {{ govukCheckboxes({
-        name: "grant-types",
-        fieldset: {
-          legend: {
-            text: "Grant types",
-            isPageHeading: false
-          }
+      {{
+      govukInput({
+        label: {
+          text: "Database Username"
         },
-        items: [
-          {
-            value: "client_credentials",
-            text: "Client credentials"
-          },{
-            value: "authorization_code",
-            text: "Authorization Code",
-            disabled: true
-          }
-        ]
+        hint: {
+          text: "For client credentials only, the username to \"alias\" in database when changing data e.g. API_USER"
+        },
+        classes: "govuk-!-width-one-third",
+        id: "database-username",
+        name: "databaseUsername"
       }) }}
 
+      <h2 class="govuk-heading-l">Authorization code</h2>
+
       {{ govukTextarea({
-        name: "allowedIPs",
-        id: "allowed-ips",
-        hint: {
-          html: "One IP address/CIDR notation per line </br> 81.134.202.29/32 - mojvpn </br>  35.176.93.186/32 - global-protect </br> 35.178.209.113/32 - cloudplatform-1 </br> 3.8.51.207/32 - cloudplatform-2 </br> 35.177.252.54/32 - cloudplatform-3"
-        },
+        name: "redirectUris",
+        id: "redirect-uris",
         label: {
-          text: "Allowed IPs",
+          text: "Registered redirect URIs",
           isPageHeading: false
         }
       }) }}
@@ -240,19 +224,6 @@
             text: "MFA remember me"
           }
         ]
-      }) }}
-
-      {{
-      govukInput({
-        label: {
-          text: "Database Username"
-        },
-        hint: {
-          text: "For client credentials only, the username to \"alias\" in database when changing data e.g. API_USER"
-        },
-        classes: "govuk-!-width-one-third",
-        id: "database-username",
-        name: "databaseUsername"
       }) }}
 
 

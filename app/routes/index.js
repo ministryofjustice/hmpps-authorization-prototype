@@ -3,7 +3,7 @@ const db = require("../data/db");
 
 const render = (request, response) =>  {
 
-    response.render('index', { presenter: presenters.indexPresenter(db.clients) }, function (err, html) {
+    response.render('index', { presenter: presenters.indexPresenter(db.baseClients) }, function (err, html) {
         // ...
         response.send(html)
     })
