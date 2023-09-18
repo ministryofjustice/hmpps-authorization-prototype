@@ -26,3 +26,6 @@ router.get('/clients/:client_id', function(request, response) {
 router.get('/clients/:client_id/edit-deployment-details', function(request, response) {
     client.renderEditDeployment(request, response)
 })
+router.get('/clients/:client_id/edit-client-details', function(request, response) {
+    client.renderEditClientDetails(request, response)
+})

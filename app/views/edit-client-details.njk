@@ -1,0 +1,174 @@
+{% extends "layouts/main.html" %}
+{%- from "moj/components/header/macro.njk" import mojHeader -%}
+{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
+{% from "govuk/components/input/macro.njk" import govukInput %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/label/macro.njk" import govukLabel %}
+{% from "govuk/components/back-link/macro.njk" import govukBackLink %}
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+
+
+
+{% set pageName="Client details" %}
+
+{% block header %}
+    {% include "partials/moj_header.html" %}
+{% endblock %}
+
+{% block content %}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/clients/" + baseClient.base_client_id
+    }) }}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+            <h1 class="govuk-heading-xl">
+                Edit client details
+            </h1>
+
+            <h2 class="govuk-heading-l">Client details</h2>
+
+            {{ govukInput({
+                label: {
+                    text: "Base client ID"
+                },
+                classes: "govuk-!-width-two-thirds",
+                id: "base-client-id",
+                name: "baseClientID",
+                value: baseClient.base_client_id,
+                disabled: true
+            }) }}
+
+            {{ govukInput({
+                label: {
+                    text: "Access token validity"
+                },
+                classes: "govuk-!-width-one-third",
+                id: "access-token-validity",
+                name: "accessTokenValidity",
+                value: baseClient.access_token_validity
+            }) }}
+
+            {{ govukInput({
+                label: {
+                    text: "Approved scopes"
+                },
+                classes: "govuk-!-width-one-third",
+                id: "approved-scopes",
+                name: "approvedScopes",
+                value: baseClient.scope
+            }) }}
+
+
+
+            <h2 class="govuk-heading-l">Grant details</h2>
+            {{ govukInput({
+                label: {
+                    text: "Grant type"
+                },
+                classes: "govuk-!-width-two-thirds",
+                id: "authorised-grant-type",
+                name: "authorisedGrantTypes",
+                value: baseClient.authorized_grant_types,
+                disabled: true
+            }) }}
+
+            {% if presenter.has_client_credentials %}
+                {{ govukTextarea({
+                    name: "authorities",
+                    id: "authorities",
+                    label: {
+                        text: "Authorities",
+                        isPageHeading: false
+                    },
+                    value: presenter.authorities
+                }) }}
+            {% endif %}
+
+            {% if presenter.has_authorization_code %}
+                {{ govukTextarea({
+                    name: "redirect uris",
+                    id: "redirect-uris",
+                    label: {
+                        text: "Registered redirect URIs",
+                        isPageHeading: false
+                    },
+                    value: presenter.web_server_redirect_uri
+                }) }}
+                {{
+                govukInput({
+                    label: {
+                        text: "JWT Fields Configuration"
+                    },
+                    hint: {
+                        text: "Comma separated list of fields, prefixed with + to add, - to remove e.g. +name,-user_id"
+                    },
+                    classes: "govuk-!-width-one-third",
+                    id: "jwt-fields",
+                    name: "jwtFields",
+                    text: baseClient.additional_information.jwtFields
+                }) }}
+
+
+                {{ govukCheckboxes({
+                    name: "azure",
+                    fieldset: {
+                        legend: {
+                            text: "Azure Ad Login Flow",
+                            isPageHeading: false
+                        },
+                        hint: {
+                            text: "Customize behaviour of Azure AD login"
+                        }
+                    },
+                    items: [
+                        {
+                            value: "redirect",
+                            text: "Auto redirect",
+                            checked: baseClient.additional_information.skipToAzureField
+                        }
+                    ]
+                }) }}
+            {% endif %}
+
+            <h2 class="govuk-heading-l">Config</h2>
+            {{ govukCheckboxes({
+                name: "expiry",
+                items: [
+                    {
+                        value: "expire",
+                        text: "allow client to expire",
+                        checked: baseClient.config.do_expire,
+                        conditional: {
+                        html: "<label class=\"govuk-label\" for=\"expiry-days\">Number of days client is currently valid for</label><input class=\"govuk-input govuk-!-width-one-quarter\" id=\"expiry-days\" name=\"expiryDays\" value=\"" + baseClient.config.days_to_expire + "\" type=\"text\">"
+                    }
+                    }
+                ]
+            }) }}
+
+            {{ govukTextarea({
+                name: "allowedIPS",
+                id: "allowed-ips",
+                label: {
+                    text: "Allowed IPs",
+                    isPageHeading: false
+                },
+                value: presenter.allowed_ips
+            }) }}
+
+            <div class="govuk-button-group">
+                {{ govukButton({
+                    text: "Save"
+                }) }}
+                <a href="/" role="button" class="govuk-button govuk-button--secondary">Cancel</a>
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}

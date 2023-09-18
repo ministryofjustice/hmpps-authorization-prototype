@@ -21,7 +21,7 @@
 {% block content %}
   {{ govukBackLink({
     text: "Back",
-    href: "/clients/" + client.client_id
+    href: "/clients/" + baseClient.base_client_id
   }) }}
 
   <div class="govuk-grid-row">
@@ -38,11 +38,14 @@
             text: "Client id"
           },
           value: {
-            text: client.client_id
+            text: baseClient.base_client_id
           }
         }
       ]
     }) }}
+
+
+      <h2 class="govuk-heading-l">Contact</h2>
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
@@ -53,7 +56,7 @@
       },
       id: "team",
       name: "team",
-      text: client.deployment_details.team
+      value: baseClient.deployment_details.team
     }) }}
 
   {{ govukInput({
@@ -62,7 +65,7 @@
     },
     id: "team-contact",
     name: "teamContact",
-    text: client.deployment_details.team_contact
+    value: baseClient.deployment_details.team_contact
   }) }}
 
       {{ govukInput({
@@ -71,11 +74,14 @@
         },
         id: "team-slack",
         name: "teamSlack",
-        text: client.deployment_details.team_slack_channel
+        value: baseClient.deployment_details.team_slack
       }) }}
 
         </div>
       </div>
+
+
+      <h2 class="govuk-heading-l">Platform</h2>
 
           {{ govukRadios({
             classes: "govuk-radios--inline",
@@ -88,14 +94,15 @@
             },
             items: [
               {
-                value: "cloud-platform",
+                value: "CLOUDPLATFORM",
                 text: "Cloud Platform"
               },
               {
-                value: "other",
+                value: "OTHER",
                 text: "Other"
               }
-            ]
+            ],
+            value: baseClient.deployment_details.hosting
           }) }}
 
       <div class="govuk-grid-row">
@@ -106,7 +113,7 @@
         },
         id: "namespace",
         name: "namespace",
-        text: client.deployment_details.namespace
+        value: baseClient.deployment_details.namespace
       }) }}
 
       {{ govukInput({
@@ -115,7 +122,7 @@
         },
         id: "deployment",
         name: "deployment",
-        text: client.deployment_details.deployment
+        value: baseClient.deployment_details.deployment
       }) }}
 
       {{ govukInput({
@@ -124,7 +131,7 @@
         },
         id: "secret-name",
         name: "secretName",
-        text: client.deployment_details.secret_name
+        value: baseClient.deployment_details.secret_name
       }) }}
 
       {{ govukInput({
@@ -133,7 +140,7 @@
         },
         id: "client-id-key",
         name: "clientIdKey",
-        text: client.deployment_details.client_id_key
+        value: baseClient.deployment_details.client_id_key
       }) }}
 
       {{ govukInput({
@@ -142,16 +149,7 @@
         },
         id: "secret-key",
         name: "secretKey",
-        text: client.deployment_details.secret_key
-      }) }}
-
-      {{ govukInput({
-        label: {
-          text: "Team slack channel"
-        },
-        id: "team-slack",
-        name: "teamSlack",
-        text: client.deployment_details.team_slack_channel
+        value: baseClient.deployment_details.secret_key
       }) }}
 
         </div>
@@ -164,7 +162,7 @@
           text: "Deployment info",
           isPageHeading: false
         },
-        value: client.deployment_details.deployment_info
+        value: baseClient.deployment_details.deployment_info
       }) }}
 
       <div class="govuk-button-group">
