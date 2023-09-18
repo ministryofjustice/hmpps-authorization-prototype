@@ -73,7 +73,7 @@ let indexPresenter = (data) => {
 
 let baseClientPresenter = (baseClient) => {
     return {
-        authorities: baseClient.authorities.join("\n"),
+        authorities: baseClient.authorities.join("</br>"),
         allowed_ips: baseClient.config.allowed_ips.join("\n"),
         web_server_redirect_uri: baseClient.web_server_redirect_uri.join("\n"),
         has_client_credentials: baseClient.authorized_grant_types.includes("client_credentials"),
@@ -88,7 +88,9 @@ let baseClientPresenter = (baseClient) => {
             },{
                 text: item.last_accessed
             }
-        ])
+        ]),
+        expiry: baseClient.config.client_end_date ? `Yes - days remaining ${this.config.days_to_expire}`: "No" ,
+        skipToAzureField: baseClient.additional_information.skipToAzureField ? "Auto redirect": ""
     }
 }
 
