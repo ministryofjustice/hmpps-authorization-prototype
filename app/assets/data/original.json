@@ -1,0 +1,6290 @@
+[
+  {
+    "deployment_details": {
+      "client_type": "SERVICE",
+      "team": "A Team",
+      "team_contact": "A Team contact",
+      "team_slack": "A team slack",
+      "hosting": "CLOUDPLATFORM",
+      "namespace": "another-delete-test-dev",
+      "deployment": "another-delete-test-deployment",
+      "secret_name": "another-delete-test-secret",
+      "client_id_key": "API_CLIENT_ID",
+      "secret_key": "API_CLIENT_SECRET",
+      "deployment_info": "More info blah"
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "another-delete-test-client",
+    "clients": [
+      {
+        "client_id": "another-delete-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "another-test-client",
+    "clients": [
+      {
+        "client_id": "another-test-client-2",
+        "created": "2018-12-25 01:03:50",
+        "secret_updated": "2018-12-25 01:03:50",
+        "last_accessed": "2019-12-25 01:03:50"
+      },
+      {
+        "client_id": "another-test-client-3",
+        "created": "2019-01-25 01:03:50",
+        "secret_updated": "2019-01-25 01:03:50",
+        "last_accessed": "2020-01-25 01:03:50"
+      },
+      {
+        "client_id": "another-test-client-4",
+        "created": "2020-02-25 02:08:45",
+        "secret_updated": "2020-02-25 02:08:45",
+        "last_accessed": "2020-02-25 02:08:45"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2020-02-25 02:08:45",
+    "last_accessed": "2020-02-25 02:08:45"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "apireporting",
+    "clients": [
+      {
+        "client_id": "apireporting",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "reporting",
+    "authorities": [
+      "ROLE_REPORTING"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "reporting",
+    "client_secret": "$2a$10$f93YXwvkwVx3mS1dsZzK/.dJzvm7gu7jHawG7xIUUJTYLtXkoQaNO",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "approved-premises-api",
+    "clients": [
+      {
+        "client_id": "approved-premises-api",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 12000,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY",
+      " ROLE_INTERVENTIONS",
+      " ROLE_OASYS_READ_ONLY",
+      " ROLE_COMMUNITY_USERS",
+      " ROLE_RISK_SUMMARY",
+      " ROLE_GLOBAL_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$a5WJN/AZc7Nq3rFoy5GOQ.avY.opPq/RaF59TXFaInt0Jxp6NV94a",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "approved-premises-ui",
+    "clients": [
+      {
+        "client_id": "approved-premises-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000",
+      "http://approved-premises-ui:3000/sign-in/callback",
+      "http://approved-premises-ui:3000"
+    ],
+    "access_token_validity": 12000,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$a5WJN/AZc7Nq3rFoy5GOQ.avY.opPq/RaF59TXFaInt0Jxp6NV94a",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "azure-login-client",
+    "clients": [
+      {
+        "client_id": "azure-login-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8081/login",
+      "http://localhost:3000/",
+      "http://localhost:3001/",
+      "http://localhost:3000/login/callback",
+      "http://localhost:3001/login/callback",
+      "http://localhost:3002/login/callback",
+      "http://localhost:8081/webjars/springfox-swagger-ui/oauth2-redirect.html"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write,nomis,auth,delius",
+    "authorities": [],
+    "authorized_grant_types": [
+      "password",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write,nomis,auth,delius",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "azure-login-client-roles-needed",
+    "clients": [
+      {
+        "client_id": "azure-login-client-roles-needed",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000",
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "batchadmin",
+    "clients": [
+      {
+        "client_id": "batchadmin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_CONTACT_CREATE",
+      "ROLE_GLOBAL_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$UzbBEEyIFPTZGEle94.P5O.HyZ/46LxTByqC1sETfQKm8KVyO3k6O",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "book-a-prison-visit-client",
+    "clients": [
+      {
+        "client_id": "book-a-prison-visit-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_VISIT_SCHEDULER",
+      "ROLE_PRISONER_CONTACT_REGISTRY",
+      "ROLE_OFFENDER_CONTACTS",
+      "ROLE_NOMIS_VISITS",
+      "ROLE_MIGRATION_ADMIN"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$12$30bYVFItHZD5RpzwDiczdOPPgbvzHkMlb5bbX3Ev7CnlRmhaYyPsm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "book-a-prison-visit-client-ui",
+    "clients": [
+      {
+        "client_id": "book-a-prison-visit-client-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000",
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000/logout/success",
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000/sign-out/success"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_VISIT_SCHEDULER",
+      "ROLE_PRISONER_CONTACT_REGISTRY",
+      "ROLE_OFFENDER_CONTACTS",
+      "ROLE_PRISONER_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$12$30bYVFItHZD5RpzwDiczdOPPgbvzHkMlb5bbX3Ev7CnlRmhaYyPsm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "book-video-link-admin",
+    "clients": [
+      {
+        "client_id": "book-video-link-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SYSTEM_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "book-video-link-client",
+    "clients": [
+      {
+        "client_id": "book-video-link-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "calculate-release-dates-admin",
+    "clients": [
+      {
+        "client_id": "calculate-release-dates-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_SYSTEM_USER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "calculate-release-dates-client",
+    "clients": [
+      {
+        "client_id": "calculate-release-dates-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "categorisationtool",
+    "clients": [
+      {
+        "client_id": "categorisationtool",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_RISK_PROFILER"
+    ],
+    "authorized_grant_types": [
+      "password",
+      "authorization_code",
+      "refresh_token",
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "community-api-client",
+    "clients": [
+      {
+        "client_id": "community-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY",
+      "ROLE_COMMUNITY_USERS",
+      "ROLE_COMMUNITY_CUSTODY_UPDATE",
+      "ROLE_COMMUNITY_EVENTS"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "{bcrypt}$2a$10$scfYGjUYDto1RH5SRXNcquf5jFcvVLzRPXQSohIRCSgzz4UimRCHu",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "court-case-service",
+    "clients": [
+      {
+        "client_id": "court-case-service",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY",
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "{bcrypt}$2a$10$OPvgbwhWDQ/yysDHfhzClO0ud2Q11fAIGt6n.dIW.v0wFFNW1Rnm.",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "create-and-vary-a-licence-admin",
+    "clients": [
+      {
+        "client_id": "create-and-vary-a-licence-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_CVL_ADMIN",
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_SYSTEM_USER",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "create-and-vary-a-licence-client",
+    "clients": [
+      {
+        "client_id": "create-and-vary-a-licence-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "custodyapi",
+    "clients": [
+      {
+        "client_id": "custodyapi",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "reporting",
+    "authorities": [
+      "ROLE_REPORTING"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "reporting",
+    "client_secret": "$2a$10$ZClyyxwFbX/24Ab9KXflc.Id5cOv3qu4b1ryNkFmXzJZt9y8eJa82",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "delete-test-client",
+    "clients": [
+      {
+        "client_id": "delete-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "delius",
+    "clients": [
+      {
+        "client_id": "delius",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SYSTEM_USER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$wgC7niO2UpNykzZ4gsPcZOvKakPRwjGu.89C9AhQTCXsJG3JqTgK2",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "delius-auth-api-client",
+    "clients": [
+      {
+        "client_id": "delius-auth-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY_AUTH_INT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "{bcrypt}$2a$10$OPvgbwhWDQ/yysDHfhzClO0ud2Q11fAIGt6n.dIW.v0wFFNW1Rnm.",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "delius-login-client",
+    "clients": [
+      {
+        "client_id": "delius-login-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:5000/login/callback",
+      "http://localhost:5000/reset"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,delius",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,delius",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "deliusnewtech",
+    "clients": [
+      {
+        "client_id": "deliusnewtech",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "reporting",
+    "authorities": [
+      "SYSTEM_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "reporting",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "duplicate-client-client",
+    "clients": [
+      {
+        "client_id": "duplicate-client-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_CLIENT_ROTATION_ADMIN"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "education-data-aggregation",
+    "clients": [
+      {
+        "client_id": "education-data-aggregation",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_GLOBAL_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "elite2apiclient",
+    "clients": [
+      {
+        "client_id": "elite2apiclient",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8081/login",
+      "http://localhost:3000/",
+      "http://localhost:3001/",
+      "http://localhost:3000/login/callback",
+      "http://localhost:3001/login/callback",
+      "http://localhost:3002/login/callback",
+      "http://localhost:8081/webjars/springfox-swagger-ui/oauth2-redirect.html"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "password",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": "2023-09-17",
+      "days_to_expire": -1,
+      "do_expire": false
+    },
+    "base_client_id": "end-date-client",
+    "clients": [
+      {
+        "client_id": "end-date-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": "2023-09-10",
+      "days_to_expire": -8,
+      "do_expire": false
+    },
+    "base_client_id": "expired-end-date-client",
+    "clients": [
+      {
+        "client_id": "expired-end-date-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-allocations",
+    "clients": [
+      {
+        "client_id": "hmpps-allocations",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY",
+      "ROLE_OASYS_READ_ONLY",
+      "ROLE_HMPPS_TIER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-assess-risks-and-needs-client",
+    "clients": [
+      {
+        "client_id": "hmpps-assess-risks-and-needs-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_PROBATION",
+      "ROLE_CRS_PROVIDER",
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-audit-api-client",
+    "clients": [
+      {
+        "client_id": "hmpps-audit-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_AUDIT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-audit-ui",
+    "clients": [
+      {
+        "client_id": "hmpps-audit-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-auth-manageusersapi-client",
+    "clients": [
+      {
+        "client_id": "hmpps-auth-manageusersapi-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MANAGE_AUTH_INT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$12$4rtH1Jxe6akMyAjz/K/dYe50x.j8WoswWe.MCHtjGiG.ebbgUq9MS",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-auth-nomis-client",
+    "clients": [
+      {
+        "client_id": "hmpps-auth-nomis-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MANAGE_NOMIS_USER_ACCOUNT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "{bcrypt}$2a$04$8kdX3GqQDxb3VT4R3qZ21uHY49NAeyjzxlMBHiwjCoKYfETXCgqle",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-education-employment-ui",
+    "clients": [
+      {
+        "client_id": "hmpps-education-employment-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_VIEW_PRISONER_DATA"
+    ],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-historical-prisoner-index-client",
+    "clients": [
+      {
+        "client_id": "hmpps-historical-prisoner-index-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_HISTORICAL_PRISONER_INDEX"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-integration-api-client",
+    "clients": [
+      {
+        "client_id": "hmpps-integration-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_VIEW_PRISONER_DATA",
+      "ROLE_PRISONER_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-manage-users-api",
+    "clients": [
+      {
+        "client_id": "hmpps-manage-users-api",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MAINTAIN_OAUTH_USERS",
+      " ROLE_SYSTEM_USER",
+      " ROLE_MAINTAIN_ACCESS_ROLES_ADMIN",
+      " ROLE_ROLES_ADMIN",
+      " ROLE_CREATE_EMAIL_TOKEN"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-prisoner-profile",
+    "clients": [
+      {
+        "client_id": "hmpps-prisoner-profile",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-prisoner-profile-system",
+    "clients": [
+      {
+        "client_id": "hmpps-prisoner-profile-system",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_CURIOUS_API",
+      "ROLE_MANAGE_DIGITAL_WARRANT",
+      "ROLE_NOMIS_API_V1",
+      "ROLE_PRISONER_SEARCH",
+      "ROLE_SYSTEM_USER",
+      "ROLE_VIEW_PRISONER_DATA"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-registers-ui",
+    "clients": [
+      {
+        "client_id": "hmpps-registers-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-registers-ui-client",
+    "clients": [
+      {
+        "client_id": "hmpps-registers-ui-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_MAINTAIN_REF_DATA"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-tier",
+    "clients": [
+      {
+        "client_id": "hmpps-tier",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY",
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hmpps-tier-to-delius-update",
+    "clients": [
+      {
+        "client_id": "hmpps-tier-to-delius-update",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "write",
+    "authorities": [
+      "ROLE_MANAGEMENT_TIER_UPDATE",
+      "ROLE_HMPPS_TIER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "hpa-client",
+    "clients": [
+      {
+        "client_id": "hpa-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000",
+      "http://localhost:3000/authentication"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": "PERSONAL",
+      "team": "Bob",
+      "team_contact": "Bob@digital.justice.gov.uk",
+      "team_slack": "bob slack",
+      "hosting": "OTHER",
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "individual-client",
+    "clients": [
+      {
+        "client_id": "individual-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "interventions",
+    "clients": [
+      {
+        "client_id": "interventions",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000",
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000/logout/success",
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000/sign-out/success"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_VIEW_USER_GROUPS",
+      "ROLE_COMMUNITY",
+      "ROLE_INTERVENTIONS",
+      "ROLE_OASYS_READ_ONLY",
+      "ROLE_COMMUNITY_USERS",
+      "ROLE_RISK_SUMMARY",
+      "ROLE_COMMUNITY_INTERVENTIONS_UPDATE"
+    ],
+    "authorized_grant_types": [
+      "client_credentials",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$a5WJN/AZc7Nq3rFoy5GOQ.avY.opPq/RaF59TXFaInt0Jxp6NV94a",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "ip-allow-a-client",
+    "clients": [
+      {
+        "client_id": "ip-allow-a-client-1",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "ip-allow-b-client",
+    "clients": [
+      {
+        "client_id": "ip-allow-b-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      },
+      {
+        "client_id": "ip-allow-b-client-8",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [
+        "35.176.0.0/16"
+      ],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "ip-allow-c-client",
+    "clients": [
+      {
+        "client_id": "ip-allow-c-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "licences",
+    "clients": [
+      {
+        "client_id": "licences",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "password",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$1FTv04xDqLuKWjBjBnxMJuQ9fEXH0CHJKZXpOjMB7hdmrMBoKhi7.",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "licencesadmin",
+    "clients": [
+      {
+        "client_id": "licencesadmin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_LICENCE_RO"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$/JM78ghLrFNTWezv/rAoYe5Bv2HAHTtaQjzY44HTd2pHI82OxGiHy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "make-recall-decision-api",
+    "clients": [
+      {
+        "client_id": "make-recall-decision-api",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MAKE_RECALL_DECISION",
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_COMMUNITY",
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "make-recall-decision-api-aco",
+    "clients": [
+      {
+        "client_id": "make-recall-decision-api-aco",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_LICENCE_ACO",
+      "ROLE_MAKE_RECALL_DECISION_SPO",
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_COMMUNITY",
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "make-recall-decision-api-spo",
+    "clients": [
+      {
+        "client_id": "make-recall-decision-api-spo",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MAKE_RECALL_DECISION_SPO",
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_COMMUNITY",
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "make-recall-decision-ui",
+    "clients": [
+      {
+        "client_id": "make-recall-decision-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000",
+      "http://make-recall-decision-ui:3000/sign-in/callback",
+      "http://make-recall-decision-ui:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-a-workforce-ui",
+    "clients": [
+      {
+        "client_id": "manage-a-workforce-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-adjudications",
+    "clients": [
+      {
+        "client_id": "manage-adjudications",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-adjudications-client",
+    "clients": [
+      {
+        "client_id": "manage-adjudications-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      " ROLE_GLOBAL_SEARCH",
+      " ROLE_PRISONER_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-intelligence-admin",
+    "clients": [
+      {
+        "client_id": "manage-intelligence-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_INTEL_ADMIN",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-intelligence-client",
+    "clients": [
+      {
+        "client_id": "manage-intelligence-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-my-prison-client",
+    "clients": [
+      {
+        "client_id": "manage-my-prison-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-soc-cases-admin",
+    "clients": [
+      {
+        "client_id": "manage-soc-cases-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_SYSTEM_USER",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-soc-cases-client",
+    "clients": [
+      {
+        "client_id": "manage-soc-cases-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-user-accounts-ui",
+    "clients": [
+      {
+        "client_id": "manage-user-accounts-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3001/",
+      "http://localhost:3001/sign-in/callback",
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-users-api-delius-client",
+    "clients": [
+      {
+        "client_id": "manage-users-api-delius-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY_AUTH_INT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-users-api-ext-users-client",
+    "clients": [
+      {
+        "client_id": "manage-users-api-ext-users-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MAINTAIN_OAUTH_USERS"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "manage-users-api-nomis-client",
+    "clients": [
+      {
+        "client_id": "manage-users-api-nomis-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MANAGE_NOMIS_USER_ACCOUNT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "max-duplicate-client",
+    "clients": [
+      {
+        "client_id": "max-duplicate-client-1",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      },
+      {
+        "client_id": "max-duplicate-client-2",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      },
+      {
+        "client_id": "max-duplicate-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "my-diary",
+    "clients": [
+      {
+        "client_id": "my-diary",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3005/login/callback",
+      "http://localhost:3005",
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "{bcrypt}$2a$10$NATyxrjfisAqVua3E7xe/u1C4gr1527esDOAE23ouCwpO2ne6JHR.",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "null-test-client",
+    "clients": [
+      {
+        "client_id": "null-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 0,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "",
+    "authorities": [],
+    "authorized_grant_types": [],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "",
+    "client_secret": "",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "offender-events-client",
+    "clients": [
+      {
+        "client_id": "offender-events-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SYSTEM_READ_ONLY",
+      "ROLE_SYSTEM_USER",
+      "ROLE_PRISON_OFFENDER_EVENTS"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "omic",
+    "clients": [
+      {
+        "client_id": "omic",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "password",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$oUonidUHlG34P/mbiRs2d.owes0fvNeyUBACo6lzkq7Hr/68cfxOW",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "omicadmin",
+    "clients": [
+      {
+        "client_id": "omicadmin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_MAINTAIN_ACCESS_ROLES",
+      "ROLE_SYSTEM_USER",
+      "ROLE_KW_MIGRATION",
+      "ROLE_KW_ADMIN"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "omicuser",
+    "clients": [
+      {
+        "client_id": "omicuser",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login",
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "SYSTEM_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "password",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-user_name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "pathfinder-admin",
+    "clients": [
+      {
+        "client_id": "pathfinder-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_SYSTEM_USER",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "pathfinder-client",
+    "clients": [
+      {
+        "client_id": "pathfinder-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "pcms-client",
+    "clients": [
+      {
+        "client_id": "pcms-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "pcms-system",
+    "clients": [
+      {
+        "client_id": "pcms-system",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_PCMS_USER_ADMIN"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "pecs-jpc-client",
+    "clients": [
+      {
+        "client_id": "pecs-jpc-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8080/login/oauth2/code/hmpps"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "ppud-api-client",
+    "clients": [
+      {
+        "client_id": "ppud-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "ppud-ui-client",
+    "clients": [
+      {
+        "client_id": "ppud-ui-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000",
+      "http://manage-recalls-ui:3000/login/callback",
+      "http://manage-recalls-ui:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "pre-sentence-service",
+    "clients": [
+      {
+        "client_id": "pre-sentence-service",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prepare-a-case-for-court",
+    "clients": [
+      {
+        "client_id": "prepare-a-case-for-court",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prison-register-api-client",
+    "clients": [
+      {
+        "client_id": "prison-register-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_AUDIT"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prison-to-nhs-update-api-client",
+    "clients": [
+      {
+        "client_id": "prison-to-nhs-update-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prison-to-probation-update-api-client",
+    "clients": [
+      {
+        "client_id": "prison-to-probation-update-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "DT-2264",
+      "skipToAzureField": "false",
+      "databaseUsernameField": "DSS_USER"
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prisonapiclient",
+    "clients": [
+      {
+        "client_id": "prisonapiclient",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8081/sign-in",
+      "http://localhost:3000/",
+      "http://localhost:3001/",
+      "http://localhost:3002/",
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3001/sign-in/callback",
+      "http://localhost:3002/sign-in/callback"
+    ],
+    "access_token_validity": 28800,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prisoner-offender-search-client",
+    "clients": [
+      {
+        "client_id": "prisoner-offender-search-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_PRISONER_INDEX",
+      "ROLE_GLOBAL_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prisoner-transactions-admin",
+    "clients": [
+      {
+        "client_id": "prisoner-transactions-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_PRISONER_SEARCH",
+      "ROLE_SYSTEM_USER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prisoner-transactions-client",
+    "clients": [
+      {
+        "client_id": "prisoner-transactions-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "prisonstaffhubclient",
+    "clients": [
+      {
+        "client_id": "prisonstaffhubclient",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SYSTEM_READ_ONLY",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "probation-offender-events-client",
+    "clients": [
+      {
+        "client_id": "probation-offender-events-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_COMMUNITY_EVENTS",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "probation-offender-search-indexer-client",
+    "clients": [
+      {
+        "client_id": "probation-offender-search-indexer-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_PROBATION_INDEX",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "risk-profiler",
+    "clients": [
+      {
+        "client_id": "risk-profiler",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SYSTEM_USER",
+      "ROLE_RISK_PROFILER"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$r12DB/sqXduodnjtAY/ykO0S3KCySdVW4zhG3jlIRaIsfVkFOEds2",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "rotation-test-client",
+    "clients": [
+      {
+        "client_id": "rotation-test-client-2",
+        "created": "2018-12-25 01:03:50",
+        "secret_updated": "2018-12-25 01:03:50",
+        "last_accessed": "2018-12-25 01:03:50"
+      },
+      {
+        "client_id": "rotation-test-client-1",
+        "created": "2013-01-26 13:23:19",
+        "secret_updated": "2013-01-27 13:23:19",
+        "last_accessed": "2013-01-28 13:23:19"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2018-12-25 01:03:50",
+    "last_accessed": "2018-12-25 01:03:50"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "send-legal-mail-to-prisons",
+    "clients": [
+      {
+        "client_id": "send-legal-mail-to-prisons",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "send-legal-mail-to-prisons-client",
+    "clients": [
+      {
+        "client_id": "send-legal-mail-to-prisons-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SLM_CREATE_BARCODE",
+      "ROLE_SLM_SCAN_BARCODE",
+      "ROLE_SLM_EMAIL_LINK"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "sentence-plan-api-client",
+    "clients": [
+      {
+        "client_id": "sentence-plan-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_OASYS_READ_ONLY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$Zqe3Cqb9aKi2bjtwfhUnIuTWJZX5nSkreuursYbp3/uBXbISADVDy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "sentence-plan-client",
+    "clients": [
+      {
+        "client_id": "sentence-plan-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/sign-in/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$p6W1ScfSakBbpkrhBOQoGugDyMTCn3hYe246eKuzHvImCjc1ebDfG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "service-add-test-client",
+    "clients": [
+      {
+        "client_id": "service-add-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3001/",
+      "http://localhost:3001/sign-in/callback"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": "SERVICE",
+      "team": "A Team",
+      "team_contact": "A Team contact",
+      "team_slack": "A team slack",
+      "hosting": "CLOUDPLATFORM",
+      "namespace": "service-dev",
+      "deployment": "service-deployment",
+      "secret_name": "service-secret",
+      "client_id_key": "API_CLIENT_ID",
+      "secret_key": "API_CLIENT_SECRET",
+      "deployment_info": "More info blah"
+    },
+    "config": {
+      "allowed_ips": [
+        "127.0.0.1"
+      ],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "service-client",
+    "clients": [
+      {
+        "client_id": "service-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "service-edit-test-client",
+    "clients": [
+      {
+        "client_id": "service-edit-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3001/",
+      "http://localhost:3001/sign-in/callback"
+    ],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "service-mfa-remember-test-client",
+    "clients": [
+      {
+        "client_id": "service-mfa-remember-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "read"
+    ],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "service-mfa-test-client",
+    "clients": [
+      {
+        "client_id": "service-mfa-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:8081/login"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "smoke-test-client",
+    "clients": [
+      {
+        "client_id": "smoke-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_SMOKE_TEST"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "special-chars-test-client",
+    "clients": [
+      {
+        "client_id": "special-chars-test-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "{bcrypt}$2a$10$1HCA2OQDpaM2RwVwKb1efOBYdKlgktFX6fr5KVJT4dl4l/AgmZT/C",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "submit-information-report-admin",
+    "clients": [
+      {
+        "client_id": "submit-information-report-admin",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_INTEL_SUBMISSION_ADMIN",
+      "ROLE_COMMUNITY"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "submit-information-report-client",
+    "clients": [
+      {
+        "client_id": "submit-information-report-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000",
+      "http://localhost:3001/login/callback",
+      "http://localhost:3001"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "token-verification-auth-api-client",
+    "clients": [
+      {
+        "client_id": "token-verification-auth-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_AUTH_TOKEN_VERIFICATION"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "{bcrypt}$2a$10$hQPvQMNfbh2vhjTjDWHpoeN.iRFRddJJug6qtBkWzQ8uPEc53isZy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "use-of-force-client",
+    "clients": [
+      {
+        "client_id": "use-of-force-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "use-of-force-system",
+    "clients": [
+      {
+        "client_id": "use-of-force-system",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_SYSTEM_READ_ONLY",
+      "ROLE_USE_OF_FORCE"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "user-load",
+    "clients": [
+      {
+        "client_id": "user-load",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_MAINTAIN_OAUTH_USERS"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "{bcrypt}$2a$10$zF0guKjmvHPxmkGdqmPa9ehLM0myWx/KCYNvbpKb6.eEIsDlYc/5S",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "v1-client",
+    "clients": [
+      {
+        "client_id": "v1-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 1200,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_NOMIS_API_V1",
+      "ROLE_BOOKING_CREATE",
+      "ROLE_BOOKING_RECALL",
+      "ROLE_GLOBAL_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$r12DB/sqXduodnjtAY/ykO0S3KCySdVW4zhG3jlIRaIsfVkFOEds2",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "whereabouts-api-client",
+    "clients": [
+      {
+        "client_id": "whereabouts-api-client",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [
+      "ROLE_PAY",
+      " ROLE_CASE_NOTE_ADMIN",
+      "GLOBAL_SEARCH"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "workload-measurement-ui",
+    "clients": [
+      {
+        "client_id": "workload-measurement-ui",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [
+      "http://localhost:3000/login/callback",
+      "http://localhost:3000"
+    ],
+    "access_token_validity": 3600,
+    "refresh_token_validity": 43200,
+    "resource_ids": [],
+    "scope": "read,write",
+    "authorities": [],
+    "authorized_grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "additional_information": {
+      "jwtFields": "-name",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read,write",
+    "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  },
+  {
+    "deployment_details": {
+      "client_type": null,
+      "team": null,
+      "team_contact": null,
+      "team_slack": null,
+      "hosting": null,
+      "namespace": null,
+      "deployment": null,
+      "secret_name": null,
+      "client_id_key": null,
+      "secret_key": null,
+      "deployment_info": null
+    },
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
+    "base_client_id": "yjaftrustedclient",
+    "clients": [
+      {
+        "client_id": "yjaftrustedclient",
+        "created": "2023-09-11 09:49:29",
+        "secret_updated": "2023-09-11 09:49:29",
+        "last_accessed": "2023-09-11 09:49:29"
+      }
+    ],
+    "web_server_redirect_uri": [],
+    "access_token_validity": 3600,
+    "refresh_token_validity": null,
+    "resource_ids": [],
+    "scope": "read",
+    "authorities": [
+      "ROLE_GLOBAL_SEARCH",
+      "ROLE_BOOKING_CREATE",
+      "ROLE_BOOKING_RECALL"
+    ],
+    "authorized_grant_types": [
+      "client_credentials"
+    ],
+    "additional_information": {
+      "jwtFields": "",
+      "jiraNo": "",
+      "skipToAzureField": "false",
+      "databaseUsernameField": ""
+    },
+    "autoapprove": "read",
+    "client_secret": "$2a$10$vVVSNBnu34VlNItT92f9QeW065zOyWBUX78fMZdzIOCPxyY1ETJuG",
+    "secret_updated": "2023-09-11 09:49:29",
+    "last_accessed": "2023-09-11 09:49:29"
+  }
+]

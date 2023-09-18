@@ -1,14 +1,13 @@
 const presenters = require("../views/helpers/presenters");
-const db = require("../data/db");
+const { getBaseClients } = require("../data/db");
 
 const render = (request, response) =>  {
-
-    response.render('index', { presenter: presenters.indexPresenter(db.baseClients) }, function (err, html) {
+    response.render('index', { presenter: presenters.indexPresenter(getBaseClients()) }, function (err, html) {
         // ...
         response.send(html)
     })
 }
 
 module.exports = {
-    render:render
+    render
 }

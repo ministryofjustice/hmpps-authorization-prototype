@@ -7,7 +7,9 @@ const govukPrototypeKit = require('govuk-prototype-kit')
 const index = require("./routes/index");
 const client = require("./routes/client");
 const router = govukPrototypeKit.requests.setupRouter()
+const { loadBaseClients } = require("./data/db")
 
+loadBaseClients()
 
 // Add your routes here
 router.get('/', function(request, response) {

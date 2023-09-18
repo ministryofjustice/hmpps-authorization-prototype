@@ -1,31 +1,45 @@
-let mockData = require("../assets/mock-data");
-const {BaseClient, getBaseClientId} = require("../model/client");
+const fs = require('fs/promises');
 
-class MockDbFactory {
-    constructor(mockClientData) {
-        this.data = mockClientData
-    }
+let baseClients = []
 
-    buildClientData = () => {
-        const baseClients = Object.fromEntries(this.data.map(item => {
-            const baseClient = new BaseClient(item)
-            baseClient.clients = [];
-            return [baseClient.base_client_id, baseClient]
-        }))
-
-        this.data.forEach(item => {
-            baseClients[getBaseClientId(item.client_id)].addClient(item)
-        })
-
-        let baseClientsList = Object.values(baseClients)
-        baseClientsList.sort((a,b) => a.base_client_id < b.base_client_id ? -1 : 0)
-
-        return baseClientsList
-    }
+const getBaseClients = () => { return baseClients }
+const setBaseClients = (data) => { baseClients = data }
+const setBaseClient = (baseClient) => {
+    baseClients = baseClients.map(client => client.base_client_id === baseClient.base_client_id ? baseClient : client)
 }
 
-let baseClients = new MockDbFactory(mockData.mock_client_data).buildClientData()
+const loadBaseClients = () => {
+    fs.readFile(`${__dirname}/../assets/data/base-clients.json`, 'utf-8')
+        .then((data) => {
+            // Do something with the data
+            baseClients = JSON.parse(data)
+            console.log(baseClients)
+        })
+        .catch((error) => {
+            // Do something if error
+            console.log(error)
+            return []
+        });
+}
+
+const saveBaseClients = () => {
+    fs.writeFile(`${__dirname}/../assets/data/base-clients.json`, JSON.stringify(baseClients, null, 2)).then(r => console.log('client data saved'))
+}
+
+const resetBaseClients = () => {
+    fs.rm(`${__dirname}/../assets/data/base-clients.json`)
+        .then((data) => {
+            fs.cp(`${__dirname}/../assets/data/original.json`, `${__dirname}/../assets/data/base-clients.json`).then((data) => {
+                console.log('client data reset');
+            })
+    })
+}
 
 module.exports = {
-    baseClients: baseClients
+    setBaseClient,
+    getBaseClients,
+    setBaseClients,
+    loadBaseClients,
+    saveBaseClients,
+    resetBaseClients
 }
