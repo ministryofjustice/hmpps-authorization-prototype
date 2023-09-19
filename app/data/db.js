@@ -14,7 +14,7 @@ const loadBaseClients = () => {
         .then((data) => {
             // Do something with the data
             const baseClientData = JSON.parse(data)
-            baseClients = baseClientData.map(obj => Object.create(BaseClient.prototype, Object.getOwnPropertyDescriptors(obj)))
+            baseClients = baseClientData.map(obj => BaseClient.prototype.fromObject(obj))
         })
         .catch((error) => {
             // Do something if error
