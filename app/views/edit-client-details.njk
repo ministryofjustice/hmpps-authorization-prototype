@@ -24,7 +24,7 @@
     }) }}
 
     <div class="govuk-grid-row">
-        <div class="govuk-grid-column-two-thirds">
+        <form class="govuk-grid-column-two-thirds" action="/clients/{{baseClient.base_client_id}}/edit-client-details" method="POST">
 
             <h1 class="govuk-heading-xl">
                 Edit client details
@@ -129,7 +129,7 @@
                         {
                             value: "redirect",
                             text: "Auto redirect",
-                            checked: baseClient.additional_information.skipToAzureField
+                            checked: presenter.skipToAzureFieldBool
                         }
                     ]
                 }) }}
@@ -162,12 +162,14 @@
 
             <div class="govuk-button-group">
                 {{ govukButton({
-                    text: "Save"
+                    text: "Save",
+                    type: "submit",
+                    preventDoubleClick: true
                 }) }}
                 <a href="/" role="button" class="govuk-button govuk-button--secondary">Cancel</a>
             </div>
 
-        </div>
+        </form>
 
     </div>
 

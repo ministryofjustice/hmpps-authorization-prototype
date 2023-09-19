@@ -29,3 +29,7 @@ router.get('/clients/:client_id/edit-deployment-details', function(request, resp
 router.get('/clients/:client_id/edit-client-details', function(request, response) {
     client.renderEditClientDetails(request, response)
 })
+
+router.post('/clients/:client_id/edit-client-details', function(request, response) {
+    client.updateClientDetails(request, response)
+})

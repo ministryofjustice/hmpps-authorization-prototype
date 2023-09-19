@@ -46,7 +46,7 @@ class BaseClient {
 
         this.config.client_end_date = clientData.client_end_date || null;
         this.config.days_to_expire = this.getExpiryDays(this.config.client_end_date)
-        this.config.do_expire = this.config.days_to_expire > 0
+        this.config.do_expire = this.config.days_to_expire !== null
 
         this.secret_updated = this.clients[0].secret_updated
         this.last_accessed = this.clients[0].last_accessed
@@ -65,23 +65,49 @@ class BaseClient {
         console.log("days remaining:", days)
         return days
     }
+}
 
-    setExpiryDays = (daysToExpire) => {
+const getExpiryDays = (end_date_str) => {
+    if(!end_date_str) {
         return 0
     }
 
-    addClient = (clientData) => {
-        this.clients.push(new Client(clientData))
-        const secretDates = this.clients.map(item => item.secret_updated)
-        const lastAccessedDates = this.clients.map(item => item.last_accessed)
-        secretDates.sort()
-        lastAccessedDates.sort()
+    //Number of days client is currently valid for
 
-        this.secret_updated = secretDates.pop().split(".")[0]
-        this.last_accessed = lastAccessedDates.pop().split(".")[0]
+    let end_date = new Date(Date.parse(end_date_str))
+
+    let days = Math.ceil((end_date.getTime() - (new Date().getTime()))/(1000 * 3600 * 24))
+    console.log("days remaining:", days)
+    return days
+}
+
+const setExpiry = (baseClient, doExpire, daysToExpire) => {
+    if(doExpire !== baseClient.config.do_expire || daysToExpire !== baseClient.config.days_to_expire) {
+        if(doExpire) {
+            let now = new Date().getTime();
+            let expireIn = daysToExpire ? daysToExpire * 1000 * 60 * 60 * 24 : 0
+            let expiryDate = new Date();
+            expiryDate.setTime(now + expireIn)
+
+            baseClient.config.client_end_date = expiryDate.toISOString().split('T')[0]
+        } else {
+            baseClient.config.client_end_date = null;
+        }
     }
 
+    baseClient.config.days_to_expire = getExpiryDays(baseClient.config.client_end_date)
+    baseClient.config.do_expire = doExpire
+}
 
+const addClient = (baseClient, clientData) => {
+    baseClient.clients.push(new Client(clientData))
+    const secretDates = baseClient.clients.map(item => item.secret_updated)
+    const lastAccessedDates = baseClient.clients.map(item => item.last_accessed)
+    secretDates.sort()
+    lastAccessedDates.sort()
+
+    baseClient.secret_updated = secretDates.pop().split(".")[0]
+    baseClient.last_accessed = lastAccessedDates.pop().split(".")[0]
 }
 
 class Client {
@@ -110,5 +136,6 @@ isInteger = (str) => {
 module.exports = {
     Client: Client,
     BaseClient: BaseClient,
-    getBaseClientId: getBaseClientId
+    getBaseClientId: getBaseClientId,
+    setExpiry: setExpiry
 }

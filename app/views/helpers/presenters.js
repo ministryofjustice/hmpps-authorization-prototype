@@ -89,8 +89,9 @@ let baseClientPresenter = (baseClient) => {
                 text: item.last_accessed
             }
         ]),
-        expiry: baseClient.config.client_end_date ? `Yes - days remaining ${this.config.days_to_expire}`: "No" ,
-        skipToAzureField: baseClient.additional_information.skipToAzureField ? "Auto redirect": ""
+        expiry: baseClient.config.client_end_date ? `Yes - days remaining ${baseClient.config.days_to_expire}`: "No" ,
+        skipToAzureField: baseClient.additional_information.skipToAzureField === 'true' ? "Auto redirect": "",
+        skipToAzureFieldBool: baseClient.additional_information.skipToAzureField === 'true'
     }
 }
 

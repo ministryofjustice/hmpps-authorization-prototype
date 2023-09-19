@@ -1,4 +1,5 @@
 const fs = require('fs/promises');
+const {BaseClient} = require("../model/client");
 
 let baseClients = []
 
@@ -12,8 +13,8 @@ const loadBaseClients = () => {
     fs.readFile(`${__dirname}/../assets/data/base-clients.json`, 'utf-8')
         .then((data) => {
             // Do something with the data
-            baseClients = JSON.parse(data)
-            console.log(baseClients)
+            const baseClientData = JSON.parse(data)
+            baseClients = baseClientData.map(obj => Object.create(BaseClient.prototype, Object.getOwnPropertyDescriptors(obj)))
         })
         .catch((error) => {
             // Do something if error
