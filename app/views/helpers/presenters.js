@@ -71,7 +71,12 @@ let indexPresenter = (data) => {
     }
 }
 
+let capitalCase = (str) => {
+    if(str === null || str.length <= 1) { return str }
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+}
 let baseClientPresenter = (baseClient) => {
+
     return {
         authorities: baseClient.authorities.join("</br>"),
         allowed_ips: baseClient.config.allowed_ips.join("\n"),
@@ -91,7 +96,8 @@ let baseClientPresenter = (baseClient) => {
         ]),
         expiry: baseClient.config.client_end_date ? `Yes - days remaining ${baseClient.config.days_to_expire}`: "No" ,
         skipToAzureField: baseClient.additional_information.skipToAzureField === 'true' ? "Auto redirect": "",
-        skipToAzureFieldBool: baseClient.additional_information.skipToAzureField === 'true'
+        skipToAzureFieldBool: baseClient.additional_information.skipToAzureField === 'true',
+        hosting: capitalCase(baseClient.deployment_details.hosting)
     }
 }
 

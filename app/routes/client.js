@@ -61,6 +61,25 @@ const updateAuthorizationCodeDetails = (baseClient, data) => {
     console.log("updating authorization details")
 }
 
+const updateDeploymentDetails = (request, response) => {
+    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const data = request.body
+
+    baseClient.deployment_details.team = data.team
+    baseClient.deployment_details.team_contact = data.teamContact
+    baseClient.deployment_details.team_slack = data.teamSlack
+    baseClient.additional_information.jiraNo = data.jiraNo
+
+    baseClient.deployment_details.hosting = data.hosting
+    baseClient.deployment_details.namespace = data.namespace
+    baseClient.deployment_details.deployment = data.deployment
+    baseClient.deployment_details.secret_name = data.secretName
+    baseClient.deployment_details.client_id_key = data.clientIdKey
+    baseClient.deployment_details.secret_key = data.secretKey
+    baseClient.deployment_details.deployment_info = data.deploymentInfo
+
+    response.redirect(`/clients/${baseClient.base_client_id}`)
+}
 
 const renderAddClient = (request, response) =>  {
     response.render('add-client', {}, function (err, html) {
@@ -74,5 +93,6 @@ module.exports = {
     renderEditDeployment,
     renderEditClientDetails,
     renderAddClient,
-    updateClientDetails
+    updateClientDetails,
+    updateDeploymentDetails
 }

@@ -25,7 +25,7 @@
   }) }}
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <form class="govuk-grid-column-two-thirds" action="/clients/{{baseClient.base_client_id}}/edit-deployment-details" method="POST">
 
     <h1 class="govuk-heading-xl">
       Edit deployment details
@@ -77,6 +77,14 @@
         value: baseClient.deployment_details.team_slack
       }) }}
 
+          {{ govukInput({
+            label: {
+              text: "JIRA Number"
+            },
+            id: "jira-number",
+            name: "jiraNumber",
+            value: baseClient.additional_information.jiraNo
+          }) }}
         </div>
       </div>
 
@@ -167,13 +175,13 @@
 
       <div class="govuk-button-group">
         {{ govukButton({
-          text: "Save"
+          text: "Save",
+          type: "submit",
+          preventDoubleClick: true
         }) }}
         <a href="/clients/{{ client.client_id }}" role="button" class="govuk-button govuk-button--secondary">Cancel</a>
       </div>
-  </div>
-
-
+  </form>
   </div>
 
 {% endblock %}
