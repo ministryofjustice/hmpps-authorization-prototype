@@ -47,7 +47,7 @@ const updateClientDetails = (request, response) => {
 const updateCommonDetails = (baseClient, data) => {
     baseClient.access_token_validity = data.accessTokenValidity;
     baseClient.scope = data.approvedScopes
-    setExpiry(baseClient, data.expiry.includes("expire"), parseInt(data.expiryDays))
+    baseClient.setExpiry(data.expiry.includes("expire"), parseInt(data.expiryDays))
     baseClient.config.allowed_ips = data.allowedIPS.split('\r\n')
 }
 const updateClientCredentialsDetails = (baseClient, data) => {
@@ -87,6 +87,7 @@ const renderAddClient = (request, response) =>  {
         response.send(html)
     })
 }
+
 const renderAddClientWithGrant = (request, response) =>  {
     const grantCode = request.query.grant
     response.render('add-client-with-grant', {presenter: addClientPresenter(grantCode)}, function (err, html) {
@@ -106,7 +107,7 @@ const postClient = (request, response) =>  {
     baseClient.authorities = data.authorities.split('\r\n')
 
     if(data.expiry.includes('expire')) {
-        setExpiry(baseClient, true, data.expiryDays)
+        baseClient.setExpiry(true, data.expiryDays)
     }
 
     baseClient.config.allowed_ips = data.allowedIPS.split('\r\n')

@@ -45,6 +45,7 @@ class BaseClient {
 
         this.calculateDates = this.calculateDates.bind(this)
         this.addClient = this.addClient.bind(this)
+        this.setExpiry = this.setExpiry.bind(this)
     }
 
     addClient = (clientData) => {
@@ -60,6 +61,23 @@ class BaseClient {
 
         this.secret_updated = secretDates.pop().split(".")[0]
         this.last_accessed = lastAccessedDates.pop().split(".")[0]
+    }
+    setExpiry = (doExpire, daysToExpire) => {
+        if(doExpire !== this.config.do_expire || daysToExpire !== this.config.days_to_expire) {
+            if(doExpire) {
+                let now = new Date().getTime();
+                let expireIn = daysToExpire ? daysToExpire * 1000 * 60 * 60 * 24 : 0
+                let expiryDate = new Date();
+                expiryDate.setTime(now + expireIn)
+
+                this.config.client_end_date = expiryDate.toISOString().split('T')[0]
+            } else {
+                this.config.client_end_date = null;
+            }
+        }
+
+        this.config.days_to_expire = getExpiryDays(this.config.client_end_date)
+        this.config.do_expire = doExpire
     }
 }
 
@@ -102,24 +120,6 @@ const getExpiryDays = (end_date_str) => {
     return Math.ceil((end_date.getTime() - (new Date().getTime()))/(1000 * 3600 * 24))
 }
 
-const setExpiry = (baseClient, doExpire, daysToExpire) => {
-    if(doExpire !== baseClient.config.do_expire || daysToExpire !== baseClient.config.days_to_expire) {
-        if(doExpire) {
-            let now = new Date().getTime();
-            let expireIn = daysToExpire ? daysToExpire * 1000 * 60 * 60 * 24 : 0
-            let expiryDate = new Date();
-            expiryDate.setTime(now + expireIn)
-
-            baseClient.config.client_end_date = expiryDate.toISOString().split('T')[0]
-        } else {
-            baseClient.config.client_end_date = null;
-        }
-    }
-
-    baseClient.config.days_to_expire = getExpiryDays(baseClient.config.client_end_date)
-    baseClient.config.do_expire = doExpire
-}
-
 
 class Client {
     constructor(clientData) {
@@ -146,7 +146,5 @@ isInteger = (str) => {
 
 module.exports = {
     Client: Client,
-    BaseClient: BaseClient,
-    getBaseClientId: getBaseClientId,
-    setExpiry: setExpiry
+    BaseClient: BaseClient
 }
