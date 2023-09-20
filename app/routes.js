@@ -19,6 +19,9 @@ router.get('/', function(request, response) {
 router.get('/clients/add', function(request, response) {
     client.renderAddClient(request, response)
 })
+router.get('/clients/add-with-grant', function(request, response) {
+    client.renderAddClientWithGrant(request, response)
+})
 router.get('/clients/:client_id', function(request, response) {
     client.render(request, response)
 })
@@ -35,4 +38,8 @@ router.post('/clients/:client_id/edit-client-details', function(request, respons
 })
 router.post('/clients/:client_id/edit-deployment-details', function(request, response) {
     client.updateDeploymentDetails(request, response)
+})
+
+router.post('/clients/add-with-grant', function(request, response) {
+    client.postClient(request, response)
 })

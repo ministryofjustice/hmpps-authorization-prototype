@@ -1,6 +1,6 @@
-const {getBaseClients} = require("../data/db");
-const {baseClientPresenter} = require("../views/helpers/presenters");
-const {setExpiry} = require("../model/client")
+const {getBaseClients, addBaseClient} = require("../data/db");
+const {baseClientPresenter, addClientPresenter} = require("../views/helpers/presenters");
+const {setExpiry, BaseClient, Client} = require("../model/client")
 
 const render = (request, response) =>  {
     const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
@@ -87,6 +87,43 @@ const renderAddClient = (request, response) =>  {
         response.send(html)
     })
 }
+const renderAddClientWithGrant = (request, response) =>  {
+    const grantCode = request.query.grant
+    response.render('add-client-with-grant', {presenter: addClientPresenter(grantCode)}, function (err, html) {
+        // ...
+        response.send(html)
+    })
+}
+
+const postClient = (request, response) =>  {
+    const data = request.body
+
+    const baseClient = new BaseClient()
+    baseClient.base_client_id = data.baseClientID
+    baseClient.access_token_validity = data.accessTokenValidity === "custom" ? data.customAccessTokenValidity : data.accessTokenValidity
+    baseClient.scope = data.approvedScopes
+    baseClient.authorized_grant_types = [data.grantCode]
+    baseClient.authorities = data.authorities.split('\r\n')
+
+    if(data.expiry.includes('expire')) {
+        setExpiry(baseClient, true, data.expiryDays)
+    }
+
+    baseClient.config.allowed_ips = data.allowedIPS.split('\r\n')
+
+    const client = new Client({
+        client_id: baseClient.base_client_id,
+        created: new Date().toISOString(),
+        secret_updated: new Date().toISOString(),
+        last_accessed: new Date().toISOString()
+    })
+
+    baseClient.addClient(client)
+
+    addBaseClient(baseClient)
+
+    response.redirect(`/clients/${baseClient.base_client_id}`)
+}
 
 module.exports = {
     render,
@@ -94,5 +131,7 @@ module.exports = {
     renderEditClientDetails,
     renderAddClient,
     updateClientDetails,
-    updateDeploymentDetails
+    updateDeploymentDetails,
+    renderAddClientWithGrant,
+    postClient
 }

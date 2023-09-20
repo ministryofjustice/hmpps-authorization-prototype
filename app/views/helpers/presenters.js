@@ -101,8 +101,21 @@ let baseClientPresenter = (baseClient) => {
     }
 }
 
+let addClientPresenter = (grantCode) => {
+    const codeMap = {
+        "client-credentials": "Client credentials",
+        "authorization-code": "Authorization code"
+    }
+    return {
+        grant: codeMap[grantCode],
+        isClientCredentials: grantCode === "client-credentials",
+        isAuthorizationCode: grantCode === "authorization-code"
+    }
+}
+
 module.exports = {
     indexPresenter,
     baseClientPresenter,
+    addClientPresenter
 }
 

@@ -44,6 +44,7 @@ class BaseClient {
         this.last_accessed = null
 
         this.calculateDates = this.calculateDates.bind(this)
+        this.addClient = this.addClient.bind(this)
     }
 
     addClient = (clientData) => {

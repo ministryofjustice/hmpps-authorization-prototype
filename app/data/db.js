@@ -9,6 +9,10 @@ const setBaseClient = (baseClient) => {
     baseClients = baseClients.map(client => client.base_client_id === baseClient.base_client_id ? baseClient : client)
 }
 
+const addBaseClient = (client) => {
+    baseClients.push(client)
+}
+
 const loadBaseClients = () => {
     fs.readFile(`${__dirname}/../assets/data/base-clients.json`, 'utf-8')
         .then((data) => {
@@ -42,5 +46,6 @@ module.exports = {
     setBaseClients,
     loadBaseClients,
     saveBaseClients,
-    resetBaseClients
+    resetBaseClients,
+    addBaseClient
 }
