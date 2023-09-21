@@ -35,6 +35,27 @@
         name: "baseClientID"
       }) }}
 
+      {{ govukRadios({
+        classes: "govuk-radios--inline",
+        name: "clientType",
+        fieldset: {
+          legend: {
+            text: "Client type",
+            isPageHeading: false
+          }
+        },
+        items: [
+          {
+            value: "SERVICE",
+            text: "Service"
+          },
+          {
+            value: "PERSONAL",
+            text: "Personal"
+          }
+        ]
+      }) }}
+
       {{ govukSelect({
         id: "access-token-validity",
         name: "accessTokenValidity",

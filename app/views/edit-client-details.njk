@@ -43,6 +43,28 @@
                 disabled: true
             }) }}
 
+            {{ govukRadios({
+                classes: "govuk-radios--inline",
+                name: "clientType",
+                fieldset: {
+                    legend: {
+                        text: "Client type",
+                        isPageHeading: false
+                    }
+                },
+                items: [
+                    {
+                        value: "SERVICE",
+                        text: "Service"
+                    },
+                    {
+                        value: "PERSONAL",
+                        text: "Personal"
+                    }
+                ],
+                value: baseClient.deployment_details.client_type
+            }) }}
+
             {{ govukInput({
                 label: {
                     text: "Access token validity"

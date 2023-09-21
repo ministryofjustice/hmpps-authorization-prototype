@@ -13,12 +13,6 @@
       "secret_key": "API_CLIENT_SECRET",
       "deployment_info": "More info blah"
     },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
-    },
     "base_client_id": "another-delete-test-client",
     "clients": [
       {
@@ -45,8 +39,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -61,12 +69,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "another-test-client",
     "clients": [
@@ -106,8 +108,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2020-02-25 02:08:45",
-    "last_accessed": "2020-02-25 02:08:45"
+    "last_accessed": "2020-02-25 02:08:45",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -122,12 +138,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "apireporting",
     "clients": [
@@ -157,8 +167,22 @@
     },
     "autoapprove": "reporting",
     "client_secret": "$2a$10$f93YXwvkwVx3mS1dsZzK/.dJzvm7gu7jHawG7xIUUJTYLtXkoQaNO",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -173,12 +197,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "approved-premises-api",
     "clients": [
@@ -213,8 +231,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$a5WJN/AZc7Nq3rFoy5GOQ.avY.opPq/RaF59TXFaInt0Jxp6NV94a",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -229,12 +261,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "approved-premises-ui",
     "clients": [
@@ -267,8 +293,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$a5WJN/AZc7Nq3rFoy5GOQ.avY.opPq/RaF59TXFaInt0Jxp6NV94a",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -283,12 +323,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "azure-login-client",
     "clients": [
@@ -326,8 +360,22 @@
     },
     "autoapprove": "read,write,nomis,auth,delius",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -342,12 +390,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "azure-login-client-roles-needed",
     "clients": [
@@ -380,8 +422,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -396,12 +452,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "batchadmin",
     "clients": [
@@ -432,8 +482,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$UzbBEEyIFPTZGEle94.P5O.HyZ/46LxTByqC1sETfQKm8KVyO3k6O",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -448,12 +512,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "book-a-prison-visit-client",
     "clients": [
@@ -488,8 +546,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$12$30bYVFItHZD5RpzwDiczdOPPgbvzHkMlb5bbX3Ev7CnlRmhaYyPsm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -504,12 +576,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "book-a-prison-visit-client-ui",
     "clients": [
@@ -551,8 +617,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$12$30bYVFItHZD5RpzwDiczdOPPgbvzHkMlb5bbX3Ev7CnlRmhaYyPsm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -567,12 +647,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "book-video-link-admin",
     "clients": [
@@ -602,8 +676,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -618,12 +706,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "book-video-link-client",
     "clients": [
@@ -654,8 +736,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -670,12 +766,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "calculate-release-dates-admin",
     "clients": [
@@ -706,8 +796,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -722,12 +826,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "calculate-release-dates-client",
     "clients": [
@@ -758,8 +856,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -774,12 +886,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "categorisationtool",
     "clients": [
@@ -815,8 +921,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -831,12 +951,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "community-api-client",
     "clients": [
@@ -869,8 +983,22 @@
     },
     "autoapprove": "read",
     "client_secret": "{bcrypt}$2a$10$scfYGjUYDto1RH5SRXNcquf5jFcvVLzRPXQSohIRCSgzz4UimRCHu",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -885,12 +1013,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "court-case-service",
     "clients": [
@@ -921,8 +1043,22 @@
     },
     "autoapprove": "read",
     "client_secret": "{bcrypt}$2a$10$OPvgbwhWDQ/yysDHfhzClO0ud2Q11fAIGt6n.dIW.v0wFFNW1Rnm.",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -937,12 +1073,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "create-and-vary-a-licence-admin",
     "clients": [
@@ -975,8 +1105,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -991,12 +1135,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "create-and-vary-a-licence-client",
     "clients": [
@@ -1027,8 +1165,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1043,12 +1195,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "custodyapi",
     "clients": [
@@ -1078,8 +1224,22 @@
     },
     "autoapprove": "reporting",
     "client_secret": "$2a$10$ZClyyxwFbX/24Ab9KXflc.Id5cOv3qu4b1ryNkFmXzJZt9y8eJa82",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1094,12 +1254,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "delete-test-client",
     "clients": [
@@ -1127,8 +1281,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1143,12 +1311,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "delius",
     "clients": [
@@ -1178,8 +1340,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$wgC7niO2UpNykzZ4gsPcZOvKakPRwjGu.89C9AhQTCXsJG3JqTgK2",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1194,12 +1370,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "delius-auth-api-client",
     "clients": [
@@ -1229,8 +1399,22 @@
     },
     "autoapprove": "read",
     "client_secret": "{bcrypt}$2a$10$OPvgbwhWDQ/yysDHfhzClO0ud2Q11fAIGt6n.dIW.v0wFFNW1Rnm.",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1245,12 +1429,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "delius-login-client",
     "clients": [
@@ -1282,8 +1460,22 @@
     },
     "autoapprove": "read,delius",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1298,12 +1490,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "deliusnewtech",
     "clients": [
@@ -1333,8 +1519,22 @@
     },
     "autoapprove": "reporting",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1349,12 +1549,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "duplicate-client-client",
     "clients": [
@@ -1384,8 +1578,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1400,12 +1608,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "education-data-aggregation",
     "clients": [
@@ -1436,8 +1638,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1452,12 +1668,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "elite2apiclient",
     "clients": [
@@ -1495,8 +1705,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1511,12 +1735,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": "2023-09-17",
-      "days_to_expire": -1,
-      "do_expire": false
     },
     "base_client_id": "end-date-client",
     "clients": [
@@ -1544,8 +1762,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": "2023-09-17",
+      "days_to_expire": -1,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1560,12 +1792,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": "2023-09-10",
-      "days_to_expire": -8,
-      "do_expire": false
     },
     "base_client_id": "expired-end-date-client",
     "clients": [
@@ -1593,8 +1819,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": "2023-09-10",
+      "days_to_expire": -8,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1609,12 +1849,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-allocations",
     "clients": [
@@ -1646,8 +1880,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1662,12 +1910,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-assess-risks-and-needs-client",
     "clients": [
@@ -1699,8 +1941,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1715,12 +1971,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-audit-api-client",
     "clients": [
@@ -1750,8 +2000,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1766,12 +2030,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-audit-ui",
     "clients": [
@@ -1803,8 +2061,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1819,12 +2091,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-auth-manageusersapi-client",
     "clients": [
@@ -1854,8 +2120,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$12$4rtH1Jxe6akMyAjz/K/dYe50x.j8WoswWe.MCHtjGiG.ebbgUq9MS",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1870,12 +2150,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-auth-nomis-client",
     "clients": [
@@ -1905,8 +2179,22 @@
     },
     "autoapprove": "read",
     "client_secret": "{bcrypt}$2a$04$8kdX3GqQDxb3VT4R3qZ21uHY49NAeyjzxlMBHiwjCoKYfETXCgqle",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1921,12 +2209,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-education-employment-ui",
     "clients": [
@@ -1959,8 +2241,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -1975,12 +2271,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-historical-prisoner-index-client",
     "clients": [
@@ -2010,8 +2300,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2026,12 +2330,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-integration-api-client",
     "clients": [
@@ -2062,8 +2360,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2078,12 +2390,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-manage-users-api",
     "clients": [
@@ -2117,8 +2423,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2133,12 +2453,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-prisoner-profile",
     "clients": [
@@ -2169,8 +2483,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2185,12 +2513,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-prisoner-profile-system",
     "clients": [
@@ -2225,8 +2547,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2241,12 +2577,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-registers-ui",
     "clients": [
@@ -2278,8 +2608,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2294,12 +2638,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-registers-ui-client",
     "clients": [
@@ -2329,8 +2667,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2345,12 +2697,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-tier",
     "clients": [
@@ -2381,8 +2727,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2397,12 +2757,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hmpps-tier-to-delius-update",
     "clients": [
@@ -2433,8 +2787,22 @@
     },
     "autoapprove": "write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2449,12 +2817,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "hpa-client",
     "clients": [
@@ -2485,8 +2847,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2501,12 +2877,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "individual-client",
     "clients": [
@@ -2534,8 +2904,22 @@
     },
     "autoapprove": "",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2550,12 +2934,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "interventions",
     "clients": [
@@ -2599,8 +2977,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$a5WJN/AZc7Nq3rFoy5GOQ.avY.opPq/RaF59TXFaInt0Jxp6NV94a",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2615,12 +3007,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "ip-allow-a-client",
     "clients": [
@@ -2648,8 +3034,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2664,12 +3064,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "ip-allow-b-client",
     "clients": [
@@ -2703,8 +3097,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2719,14 +3127,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [
-        "35.176.0.0/16"
-      ],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "ip-allow-c-client",
     "clients": [
@@ -2754,8 +3154,24 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [
+        "35.176.0.0/16"
+      ],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2770,12 +3186,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "licences",
     "clients": [
@@ -2808,8 +3218,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$1FTv04xDqLuKWjBjBnxMJuQ9fEXH0CHJKZXpOjMB7hdmrMBoKhi7.",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2824,12 +3248,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "licencesadmin",
     "clients": [
@@ -2861,8 +3279,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$/JM78ghLrFNTWezv/rAoYe5Bv2HAHTtaQjzY44HTd2pHI82OxGiHy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2877,12 +3309,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "make-recall-decision-api",
     "clients": [
@@ -2915,8 +3341,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2931,12 +3371,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "make-recall-decision-api-aco",
     "clients": [
@@ -2970,8 +3404,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -2986,12 +3434,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "make-recall-decision-api-spo",
     "clients": [
@@ -3024,8 +3466,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3040,12 +3496,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "make-recall-decision-ui",
     "clients": [
@@ -3078,8 +3528,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3094,12 +3558,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-a-workforce-ui",
     "clients": [
@@ -3130,8 +3588,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3146,12 +3618,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-adjudications",
     "clients": [
@@ -3182,8 +3648,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3198,12 +3678,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-adjudications-client",
     "clients": [
@@ -3235,8 +3709,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3251,12 +3739,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-intelligence-admin",
     "clients": [
@@ -3288,8 +3770,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3304,12 +3800,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-intelligence-client",
     "clients": [
@@ -3340,8 +3830,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3356,12 +3860,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-my-prison-client",
     "clients": [
@@ -3392,8 +3890,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3408,12 +3920,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-soc-cases-admin",
     "clients": [
@@ -3445,8 +3951,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3461,12 +3981,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-soc-cases-client",
     "clients": [
@@ -3497,8 +4011,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3513,12 +4041,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-user-accounts-ui",
     "clients": [
@@ -3551,8 +4073,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3567,12 +4103,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-users-api-delius-client",
     "clients": [
@@ -3602,8 +4132,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3618,12 +4162,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-users-api-ext-users-client",
     "clients": [
@@ -3653,8 +4191,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3669,12 +4221,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "manage-users-api-nomis-client",
     "clients": [
@@ -3704,8 +4250,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3720,12 +4280,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "max-duplicate-client",
     "clients": [
@@ -3765,8 +4319,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3781,12 +4349,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "my-diary",
     "clients": [
@@ -3819,8 +4381,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "{bcrypt}$2a$10$NATyxrjfisAqVua3E7xe/u1C4gr1527esDOAE23ouCwpO2ne6JHR.",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3835,12 +4411,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "null-test-client",
     "clients": [
@@ -3866,8 +4436,22 @@
     },
     "autoapprove": "",
     "client_secret": "",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3882,12 +4466,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "offender-events-client",
     "clients": [
@@ -3919,8 +4497,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3935,12 +4527,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "omic",
     "clients": [
@@ -3970,8 +4556,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$oUonidUHlG34P/mbiRs2d.owes0fvNeyUBACo6lzkq7Hr/68cfxOW",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -3986,12 +4586,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "omicadmin",
     "clients": [
@@ -4024,8 +4618,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4040,12 +4648,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "omicuser",
     "clients": [
@@ -4080,8 +4682,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4096,12 +4712,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "pathfinder-admin",
     "clients": [
@@ -4133,8 +4743,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4149,12 +4773,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "pathfinder-client",
     "clients": [
@@ -4185,8 +4803,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4201,12 +4833,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "pcms-client",
     "clients": [
@@ -4237,8 +4863,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4253,12 +4893,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "pcms-system",
     "clients": [
@@ -4290,8 +4924,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4306,12 +4954,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "pecs-jpc-client",
     "clients": [
@@ -4341,8 +4983,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4357,12 +5013,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "ppud-api-client",
     "clients": [
@@ -4393,8 +5043,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4409,12 +5073,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "ppud-ui-client",
     "clients": [
@@ -4448,8 +5106,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4464,12 +5136,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "pre-sentence-service",
     "clients": [
@@ -4500,8 +5166,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4516,12 +5196,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prepare-a-case-for-court",
     "clients": [
@@ -4552,8 +5226,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4568,12 +5256,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prison-register-api-client",
     "clients": [
@@ -4603,8 +5285,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4619,12 +5315,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prison-to-nhs-update-api-client",
     "clients": [
@@ -4654,8 +5344,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4670,12 +5374,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prison-to-probation-update-api-client",
     "clients": [
@@ -4706,8 +5404,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4722,12 +5434,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prisonapiclient",
     "clients": [
@@ -4764,8 +5470,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$RYwV0QebHAovVXWPySb2lefr3HTDntGu1euXHDJc3zwh2NsqeNGHG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4780,12 +5500,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prisoner-offender-search-client",
     "clients": [
@@ -4817,8 +5531,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$.95l4ENV1OEZ6qWd4R5QTOXZrjvTQmN402z1pjRUr2EwGFYdkDDnm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4833,12 +5561,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prisoner-transactions-admin",
     "clients": [
@@ -4869,8 +5591,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4885,12 +5621,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prisoner-transactions-client",
     "clients": [
@@ -4921,8 +5651,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4937,12 +5681,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "prisonstaffhubclient",
     "clients": [
@@ -4973,8 +5711,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -4989,12 +5741,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "probation-offender-events-client",
     "clients": [
@@ -5025,8 +5771,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5041,12 +5801,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "probation-offender-search-indexer-client",
     "clients": [
@@ -5077,8 +5831,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5093,12 +5861,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "risk-profiler",
     "clients": [
@@ -5129,8 +5891,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$r12DB/sqXduodnjtAY/ykO0S3KCySdVW4zhG3jlIRaIsfVkFOEds2",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5145,12 +5921,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "rotation-test-client",
     "clients": [
@@ -5186,8 +5956,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2018-12-25 01:03:50",
-    "last_accessed": "2018-12-25 01:03:50"
+    "last_accessed": "2018-12-25 01:03:50",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5202,12 +5986,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "send-legal-mail-to-prisons",
     "clients": [
@@ -5238,8 +6016,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5254,12 +6046,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "send-legal-mail-to-prisons-client",
     "clients": [
@@ -5291,8 +6077,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5307,12 +6107,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "sentence-plan-api-client",
     "clients": [
@@ -5342,8 +6136,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$Zqe3Cqb9aKi2bjtwfhUnIuTWJZX5nSkreuursYbp3/uBXbISADVDy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5358,12 +6166,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "sentence-plan-client",
     "clients": [
@@ -5395,8 +6197,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$p6W1ScfSakBbpkrhBOQoGugDyMTCn3hYe246eKuzHvImCjc1ebDfG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5411,12 +6227,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "service-add-test-client",
     "clients": [
@@ -5447,8 +6257,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5463,14 +6287,6 @@
       "client_id_key": "API_CLIENT_ID",
       "secret_key": "API_CLIENT_SECRET",
       "deployment_info": "More info blah"
-    },
-    "config": {
-      "allowed_ips": [
-        "127.0.0.1"
-      ],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "service-client",
     "clients": [
@@ -5498,8 +6314,24 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [
+        "127.0.0.1"
+      ],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5514,12 +6346,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "service-edit-test-client",
     "clients": [
@@ -5550,8 +6376,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5566,12 +6406,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "service-mfa-remember-test-client",
     "clients": [
@@ -5603,8 +6437,22 @@
     },
     "autoapprove": "",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5619,12 +6467,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "service-mfa-test-client",
     "clients": [
@@ -5654,8 +6496,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5670,12 +6526,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "smoke-test-client",
     "clients": [
@@ -5705,8 +6555,22 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5721,12 +6585,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "special-chars-test-client",
     "clients": [
@@ -5754,8 +6612,22 @@
     },
     "autoapprove": "read",
     "client_secret": "{bcrypt}$2a$10$1HCA2OQDpaM2RwVwKb1efOBYdKlgktFX6fr5KVJT4dl4l/AgmZT/C",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5770,12 +6642,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "submit-information-report-admin",
     "clients": [
@@ -5807,8 +6673,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$ajGimbJNWF1/FmZQMJWvieeQ/OdYaxWHQPgOjYDvvWu/4/744Yw7S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5823,12 +6703,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "submit-information-report-client",
     "clients": [
@@ -5861,8 +6735,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$WzgtydqXSuhdivpWDR3WXO.yjLBm4yuDqP64Og.7E4XURdrSfhOTi",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5877,12 +6765,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "token-verification-auth-api-client",
     "clients": [
@@ -5912,8 +6794,22 @@
     },
     "autoapprove": "read",
     "client_secret": "{bcrypt}$2a$10$hQPvQMNfbh2vhjTjDWHpoeN.iRFRddJJug6qtBkWzQ8uPEc53isZy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5928,12 +6824,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "use-of-force-client",
     "clients": [
@@ -5965,8 +6855,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -5981,12 +6885,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "use-of-force-system",
     "clients": [
@@ -6020,8 +6918,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$YRkR9FGSpZu3FAn5.Awtk.Yd0hg92y63VfVVAKhS6k66nMsc3/Hiy",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -6036,12 +6948,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "user-load",
     "clients": [
@@ -6071,8 +6977,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "{bcrypt}$2a$10$zF0guKjmvHPxmkGdqmPa9ehLM0myWx/KCYNvbpKb6.eEIsDlYc/5S",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -6087,12 +7007,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "v1-client",
     "clients": [
@@ -6125,8 +7039,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$r12DB/sqXduodnjtAY/ykO0S3KCySdVW4zhG3jlIRaIsfVkFOEds2",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -6141,12 +7069,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "whereabouts-api-client",
     "clients": [
@@ -6178,8 +7100,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -6194,12 +7130,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "workload-measurement-ui",
     "clients": [
@@ -6231,8 +7161,22 @@
     },
     "autoapprove": "read,write",
     "client_secret": "$2a$10$lBwbziQlLfiCnn8Kj1PfMujEcLdsJYlYSNJvBRO638gCYTS9yN0xm",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   },
   {
     "deployment_details": {
@@ -6247,12 +7191,6 @@
       "client_id_key": null,
       "secret_key": null,
       "deployment_info": null
-    },
-    "config": {
-      "allowed_ips": [],
-      "client_end_date": null,
-      "days_to_expire": 0,
-      "do_expire": false
     },
     "base_client_id": "yjaftrustedclient",
     "clients": [
@@ -6284,7 +7222,21 @@
     },
     "autoapprove": "read",
     "client_secret": "$2a$10$vVVSNBnu34VlNItT92f9QeW065zOyWBUX78fMZdzIOCPxyY1ETJuG",
+    "config": {
+      "allowed_ips": [],
+      "client_end_date": null,
+      "days_to_expire": 0,
+      "do_expire": false
+    },
     "secret_updated": "2023-09-11 09:49:29",
-    "last_accessed": "2023-09-11 09:49:29"
+    "last_accessed": "2023-09-11 09:49:29",
+    "serviceDetails": {
+      "serviceName": "",
+      "serviceDescription": "",
+      "serviceAuthorisedRoles": [],
+      "serviceURL": "",
+      "contactUsURL": "",
+      "enabled": false
+    }
   }
 ]

@@ -10,7 +10,6 @@
 {% from "govuk/components/textarea/macro.njk" import govukTextarea %}
 
 
-
 {% set pageName="Client" %}
 
 {% block header %}
@@ -27,7 +26,7 @@
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-xl">
-        Edit client: {{ baseClient.base_client_id }}
+        Client: {{ baseClient.base_client_id }}
       </h1>
 
       {{ govukTable({
@@ -191,6 +190,67 @@
           ]
         ]
       }) }}
+
+
+      {% if presenter.has_authorization_code %}
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 class="govuk-heading-l">Service details</h2>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <a class="govuk-link" href="/clients/{{ baseClient.base_client_id }}/edit-service-details">Change service details</a>
+        </div>
+      </div>
+
+        {{ govukTable({
+          firstCellIsHeader: false,
+          head: [
+            {
+              text: "Service details"
+            },{
+              text: ""
+            }],
+          rows: [
+            [
+              {
+                text: "Name"
+              },{
+              text: baseClient.serviceDetails.serviceName
+            }
+            ],[
+              {
+                text: "Description"
+              },{
+                text: baseClient.serviceDetails.serviceDescription
+              }
+            ],[
+              {
+                text: "Authorised roles"
+              },{
+                text: baseClient.serviceDetails.serviceAuthorisedRoles.join('</br>')
+              }
+            ],[
+              {
+                text: "URL"
+              },{
+                text: baseClient.serviceDetails.serviceURL
+              }
+            ],[
+              {
+                text: "Contact URL/email"
+              },{
+                text: baseClient.serviceDetails.contactUsURL
+              }
+            ],[
+              {
+                text: "Status"
+              },{
+                text: presenter.serviceEnabledLabel
+              }
+            ]
+          ]
+        }) }}
+      {% endif %}
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">

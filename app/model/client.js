@@ -43,6 +43,15 @@ class BaseClient {
         this.secret_updated = null
         this.last_accessed = null
 
+        this.serviceDetails = {
+            serviceName: '',
+            serviceDescription: '',
+            serviceAuthorisedRoles: [],
+            serviceURL: '',
+            contactUsURL: '',
+            enabled: false
+        }
+
         this.calculateDates = this.calculateDates.bind(this)
         this.addClient = this.addClient.bind(this)
         this.setExpiry = this.setExpiry.bind(this)
@@ -95,9 +104,9 @@ BaseClient.prototype.fromObject = (obj) => {
     bc.resource_ids = obj.resource_ids
     bc.scope = obj.scope
 
-    bc.authorities = obj.authorities
-    bc.authorized_grant_types = obj.authorized_grant_types
-    bc.config.allowed_ips = obj.allowed_ips
+    bc.authorities = obj.authorities ? obj.authorities : []
+    bc.authorized_grant_types = obj.authorized_grant_types ? obj.authorized_grant_types : []
+    bc.config.allowed_ips = obj.allowed_ips ? obj.allowed_ips : ""
 
     bc.additional_information = obj.additional_information
 
@@ -107,6 +116,8 @@ BaseClient.prototype.fromObject = (obj) => {
     bc.config = obj.config
 
     bc.calculateDates()
+
+    bc.serviceDetails = obj.serviceDetails
 
     return bc
 }
@@ -128,6 +139,17 @@ class Client {
         this.secret_updated = clientData.secret_updated.split(".")[0] || "";
         this.last_accessed = clientData.last_accessed.split(".")[0] || "";
     }
+}
+
+Client.prototype.new = (baseClientId) => {
+
+    const nowString = new Date().toISOString().replace("T", " ").split(".")[0]
+    return new Client({
+        client_id: baseClientId,
+        created: nowString,
+        secret_updated: nowString,
+        last_accessed: nowString
+    })
 }
 
 getBaseClientId = (client_id) => {

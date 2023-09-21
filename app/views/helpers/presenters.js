@@ -41,7 +41,7 @@ let indexTableRows = (data) => {
                 html: `<a href="/clients/${item.base_client_id}" class="govuk-link">${item.base_client_id}</a>`
             },
             {
-                text: item.deployment_details.client_type
+                text: item.deployment_details.client_type ? capitalCase(item.deployment_details.client_type): ""
             },
             {
                 text: item.deployment_details.team
@@ -72,7 +72,7 @@ let indexPresenter = (data) => {
 }
 
 let capitalCase = (str) => {
-    if(str === null || str.length <= 1) { return str }
+    if(str == null || str.length <= 1) { return str }
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
 }
 let baseClientPresenter = (baseClient) => {
@@ -97,7 +97,11 @@ let baseClientPresenter = (baseClient) => {
         expiry: baseClient.config.client_end_date ? `Yes - days remaining ${baseClient.config.days_to_expire}`: "No" ,
         skipToAzureField: baseClient.additional_information.skipToAzureField === 'true' ? "Auto redirect": "",
         skipToAzureFieldBool: baseClient.additional_information.skipToAzureField === 'true',
-        hosting: capitalCase(baseClient.deployment_details.hosting)
+        hosting: capitalCase(baseClient.deployment_details.hosting),
+        clientType: baseClient.deployment_details.client_type ? capitalCase(baseClient.deployment_details.client_type) : "",
+        serviceEnabledCode: baseClient.serviceDetails.enabled ? "enabled" : "disabled",
+        serviceEnabledLabel:baseClient.serviceDetails.serviceName.length === 0 ? '' : baseClient.serviceDetails.enabled ? "Enabled" : "Disabled",
+        serviceAuthorisedRoles: baseClient.serviceDetails.serviceAuthorisedRoles.join('\n')
     }
 }
 
@@ -109,7 +113,8 @@ let addClientPresenter = (grantCode) => {
     return {
         grant: codeMap[grantCode],
         isClientCredentials: grantCode === "client-credentials",
-        isAuthorizationCode: grantCode === "authorization-code"
+        isAuthorizationCode: grantCode === "authorization-code",
+        grantCode: grantCode.replace('-', '_')
     }
 }
 

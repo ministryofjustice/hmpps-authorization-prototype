@@ -5,10 +5,17 @@ const {setExpiry, BaseClient, Client} = require("../model/client")
 const render = (request, response) =>  {
     const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
-    response.render('edit-base-client', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
-        // ...
-        response.send(html)
-    })
+    if(baseClient) {
+        response.render('edit-base-client', {
+            baseClient: baseClient,
+            presenter: baseClientPresenter(baseClient)
+        }, function (err, html) {
+            // ...
+            response.send(html)
+        })
+    } else {
+        response.redirect("/")
+    }
 }
 
 const renderEditDeployment = (request, response) =>  {
@@ -24,6 +31,15 @@ const renderEditClientDetails = (request, response) =>  {
     const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     response.render('edit-client-details', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
+        // ...
+        response.send(html)
+    })
+}
+
+const renderEditServiceDetails = (request, response) =>  {
+    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+
+    response.render('edit-service-details', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
         // ...
         response.send(html)
     })
@@ -45,10 +61,11 @@ const updateClientDetails = (request, response) => {
 }
 
 const updateCommonDetails = (baseClient, data) => {
+    baseClient.deployment_details.client_type = data.clientType;
     baseClient.access_token_validity = data.accessTokenValidity;
-    baseClient.scope = data.approvedScopes
-    baseClient.setExpiry(data.expiry.includes("expire"), parseInt(data.expiryDays))
-    baseClient.config.allowed_ips = data.allowedIPS.split('\r\n')
+    baseClient.scope = data.approvedScopes;
+    baseClient.setExpiry(data.expiry.includes("expire"), parseInt(data.expiryDays));
+    baseClient.config.allowed_ips = data.allowedIPS.split('\r\n');
 }
 const updateClientCredentialsDetails = (baseClient, data) => {
     baseClient.authorities = data.authorities.split('\r\n')
@@ -59,6 +76,15 @@ const updateAuthorizationCodeDetails = (baseClient, data) => {
     baseClient.additional_information.jwtFields = data.jwtFields
     baseClient.additional_information.skipToAzureField = data.azure.includes("redirect").toString()
     console.log("updating authorization details")
+}
+const updateServiceDetails = (baseClient, data) => {
+    baseClient.serviceDetails.serviceName = data['serviceName']
+    baseClient.serviceDetails.serviceDescription = data['serviceDescription']
+    baseClient.serviceDetails.serviceAuthorisedRoles = data['serviceAuthorisedRoles'].split('\r\n')
+    baseClient.serviceDetails.serviceURL = data['serviceURL']
+    baseClient.serviceDetails.contactUsURL = data['contactUsURL']
+    baseClient.serviceDetails.contactUsURL = data['serviceStatus'] === 'enabled'
+    console.log("updating service details")
 }
 
 const updateDeploymentDetails = (request, response) => {
@@ -101,6 +127,7 @@ const postClient = (request, response) =>  {
 
     const baseClient = new BaseClient()
     baseClient.base_client_id = data.baseClientID
+    baseClient.deployment_details.client_type = data.clientType;
     baseClient.access_token_validity = data.accessTokenValidity === "custom" ? data.customAccessTokenValidity : data.accessTokenValidity
     baseClient.scope = data.approvedScopes
     baseClient.authorized_grant_types = [data.grantCode]
@@ -111,15 +138,7 @@ const postClient = (request, response) =>  {
     }
 
     baseClient.config.allowed_ips = data.allowedIPS.split('\r\n')
-
-    const client = new Client({
-        client_id: baseClient.base_client_id,
-        created: new Date().toISOString(),
-        secret_updated: new Date().toISOString(),
-        last_accessed: new Date().toISOString()
-    })
-
-    baseClient.addClient(client)
+    baseClient.addClient(Client.prototype.new(baseClient.base_client_id))
 
     addBaseClient(baseClient)
 
@@ -130,9 +149,11 @@ module.exports = {
     render,
     renderEditDeployment,
     renderEditClientDetails,
+    renderEditServiceDetails,
     renderAddClient,
     updateClientDetails,
     updateDeploymentDetails,
     renderAddClientWithGrant,
+    updateServiceDetails,
     postClient
 }

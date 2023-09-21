@@ -1,0 +1,141 @@
+{% extends "layouts/main.html" %}
+{%- from "moj/components/header/macro.njk" import mojHeader -%}
+{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
+{% from "govuk/components/input/macro.njk" import govukInput %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/label/macro.njk" import govukLabel %}
+{% from "govuk/components/back-link/macro.njk" import govukBackLink %}
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+
+
+
+{% set pageName="Edit deployment details" %}
+
+{% block header %}
+    {% include "partials/moj_header.html" %}
+{% endblock %}
+
+{% block content %}
+
+    <div class="govuk-grid-row">
+        <form class="govuk-grid-column" action="/clients/{{baseClient.base_client_id}}/edit-deployment-details" method="POST">
+
+            <h1 class="govuk-heading-xl">
+                Edit service details
+            </h1>
+
+            {{ govukSummaryList({
+                rows: [
+                    {
+                        key: {
+                        text: "Client id"
+                    },
+                        value: {
+                        text: baseClient.base_client_id
+                    }
+                    }
+                ]
+            }) }}
+
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-two-thirds">
+
+                    {{ govukInput({
+                        label: {
+                            text: "Name"
+                        },
+                        hint: {
+                            text: "Usually sentence case so only first word normally capitalised"
+                        },
+                        id: "service-name",
+                        name: "serviceName",
+                        value: baseClient.serviceDetails.serviceName
+                    }) }}
+
+                    {{ govukInput({
+                        label: {
+                            text: "Description"
+                        },
+                        hint: {
+                            text: "Optional - if blank just the name will be shown
+"
+                        },
+                        id: "service-description",
+                        name: "serviceDescription",
+                        value: baseClient.serviceDetails.serviceDescription
+                    }) }}
+
+                    {{ govukTextarea({
+                        name: "serviceAuthorisedRoles",
+                        id: "service-authorised-roles",
+                        label: {
+                            text: "Authorised roles",
+                            isPageHeading: false
+                        },
+                        hint: {
+                            text: "List of roles to display the service for. One per line"
+                        },
+                        value: presenter.serviceAuthorisedRoles
+                    }) }}
+
+                    {{ govukInput({
+                        label: {
+                            text: "URL"
+                        },
+                        id: "service-url",
+                        name: "serviceURL",
+                        value: baseClient.serviceDetails.serviceURL
+                    }) }}
+
+                    {{ govukInput({
+                        label: {
+                            text: "Contact us URL or email"
+                        },
+                        hint: {
+                            text: "Optional - if blank then the service won't appear on the contact us page"
+                        },
+                        id: "service-url",
+                        name: "serviceURL",
+                        value: baseClient.serviceDetails.serviceURL
+                    }) }}
+
+
+                    {{ govukRadios({
+                        classes: "govuk-radios--inline",
+                        name: "enabled",
+                        fieldset: {
+                            legend: {
+                                text: "Status",
+                                isPageHeading: false
+                            }
+                        },
+                        items: [
+                            {
+                                value: "enabled",
+                                text: "Enabled"
+                            },
+                            {
+                                value: "disabled",
+                                text: "Disabled"
+                            }
+                        ],
+                        value: presenter.serviceEnabledCode
+                    }) }}
+                </div>
+            </div>
+
+            <div class="govuk-button-group">
+                {{ govukButton({
+                    text: "Save",
+                    type: "submit",
+                    preventDoubleClick: true
+                }) }}
+                <a href="/clients/{{ client.client_id }}" role="button" class="govuk-button govuk-button--secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}
