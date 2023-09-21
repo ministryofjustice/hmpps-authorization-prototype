@@ -52,6 +52,15 @@ router.post('/clients/add-with-grant', function(request, response) {
     client.postClient(request, response)
 })
 
+router.get('/clients/:base_client_id/instances/:client_id/delete', function(request, response) {
+    client.renderDeleteClient(request, response)
+})
+
+router.post('/clients/:base_client_id/instances/:client_id/delete', function(request, response) {
+    client.deleteClient(request, response)
+})
+
+
 router.get('/scripts/updateJSON', function(request, response) {
     addServiceObjectToJson()
     response.body = "Success"

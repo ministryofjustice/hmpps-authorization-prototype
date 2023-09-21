@@ -3,35 +3,59 @@ let indexTableHead = () => {
     return [
         {
             text: "Client",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "ascending"
+            }
         },
         {
             text: "Service",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
         {
             text: "Team name",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
         {
             text: "Grant types",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
         {
             text: "Roles",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
         {
             text: "Secret updated",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
         {
             text: "Last accessed",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
         {
             text: "Expired",
-            classes: "app-custom-class"
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
         },
     ]
 }
@@ -87,11 +111,11 @@ let baseClientPresenter = (baseClient) => {
             {
                 text: item.client_id
             },{
-                text: item.created
+                html: item.created.split(' ').join('</br>')
             },{
-                text: item.secret_updated
+                html: item.last_accessed.split(' ').join('</br>')
             },{
-                text: item.last_accessed
+                html: `<a class="govuk-link" href="/clients/${baseClient.base_client_id}/instances/${item.client_id}/delete">delete</a>`
             }
         ]),
         expiry: baseClient.config.client_end_date ? `Yes - days remaining ${baseClient.config.days_to_expire}`: "No" ,
@@ -118,9 +142,20 @@ let addClientPresenter = (grantCode) => {
     }
 }
 
+let deleteClientPresenter = (baseClient, client) => {
+    return {
+        baseClientId: baseClient.base_client_id,
+        clientId: client.client_id,
+        showWarning: baseClient.clients.length === 1,
+        warningText: `Warning: ${client.client_id} is the only instance of ${baseClient.base_client_id}. Deleting it will delete the base client`,
+        baseClientURL: `/clients/${baseClient.base_client_id}`
+    }
+}
+
 module.exports = {
     indexPresenter,
     baseClientPresenter,
-    addClientPresenter
+    addClientPresenter,
+    deleteClientPresenter
 }
 

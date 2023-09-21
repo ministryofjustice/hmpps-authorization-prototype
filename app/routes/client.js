@@ -1,12 +1,12 @@
-const {getBaseClients, addBaseClient} = require("../data/db");
-const {baseClientPresenter, addClientPresenter} = require("../views/helpers/presenters");
+const {getBaseClients, addBaseClient, setBaseClients, setBaseClient} = require("../data/db");
+const {baseClientPresenter, addClientPresenter, deleteClientPresenter} = require("../views/helpers/presenters");
 const {setExpiry, BaseClient, Client} = require("../model/client")
 
 const render = (request, response) =>  {
     const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     if(baseClient) {
-        response.render('edit-base-client', {
+        response.render('view-base-client', {
             baseClient: baseClient,
             presenter: baseClientPresenter(baseClient)
         }, function (err, html) {
@@ -145,15 +145,41 @@ const postClient = (request, response) =>  {
     response.redirect(`/clients/${baseClient.base_client_id}`)
 }
 
+const renderDeleteClient = (request, response) =>  {
+    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
+    const client = baseClient.clients.filter((item) => item.client_id === request.params.client_id)[0]
+
+    response.render('delete-client-instance', { presenter: deleteClientPresenter(baseClient, client)}, function (err, html) {
+        // ...
+        response.send(html)
+    })
+}
+const deleteClient = (request, response) => {
+
+    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
+    if(baseClient.clients.length > 1) {
+        baseClient.clients = baseClient.clients.filter(item => item.client_id !== request.params.client_id)
+        setBaseClient(baseClient)
+        response.redirect(`/clients/${baseClient.base_client_id}`)
+    } else {
+        const newBaseClients = getBaseClients().filter((item) => item.base_client_id !== request.params.base_client_id)
+        setBaseClients(newBaseClients)
+        response.redirect('/')
+    }
+
+}
+
 module.exports = {
     render,
     renderEditDeployment,
     renderEditClientDetails,
     renderEditServiceDetails,
     renderAddClient,
+    renderDeleteClient,
     updateClientDetails,
     updateDeploymentDetails,
     renderAddClientWithGrant,
     updateServiceDetails,
-    postClient
+    postClient,
+    deleteClient
 }

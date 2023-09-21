@@ -1,0 +1,50 @@
+{% extends "layouts/main.html" %}
+{%- from "moj/components/header/macro.njk" import mojHeader -%}
+{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
+{% from "govuk/components/input/macro.njk" import govukInput %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/label/macro.njk" import govukLabel %}
+{% from "govuk/components/back-link/macro.njk" import govukBackLink %}
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+
+{% set pageName="Add client" %}
+
+{% block header %}
+  {% include "partials/moj_header.html" %}
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <h1 class="govuk-heading-xl">Delete client?</h1>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <p class="govuk-body">
+          Confirm you want to delete {{ presenter.clientId }}
+        </p>
+
+        {{ govukWarningText({
+          text: "Deleted clients cannot be restored!",
+          iconFallbackText: "Warning"
+        }) }}
+
+
+    <form action="/clients/{{ presenter.baseClientId }}/instances/{{ presenter.clientId }}/delete" method="POST">
+      {{ govukButton({
+        text: "Delete client instance",
+        type: "submit",
+        classes: "govuk-button--warning"
+      }) }}
+      {{ govukButton({
+        text: "Cancel",
+        href: presenter.baseClientURL
+      }) }}
+    </form>
+    </div>
+    </div>
+  </div>
+
+{% endblock %}
