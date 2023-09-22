@@ -141,7 +141,7 @@ class Client {
     }
 }
 
-Client.prototype.new = (baseClientId) => {
+Client.prototype.build = (baseClientId) => {
 
     const nowString = new Date().toISOString().replace("T", " ").split(".")[0]
     return new Client({

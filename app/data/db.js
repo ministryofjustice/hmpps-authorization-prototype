@@ -1,5 +1,5 @@
 const fs = require('fs/promises');
-const {BaseClient} = require("../model/client");
+const {BaseClient, Client} = require("../model/client");
 
 let baseClients = []
 
@@ -11,6 +11,22 @@ const setBaseClient = (baseClient) => {
 
 const addBaseClient = (client) => {
     baseClients.push(client)
+}
+
+const duplicateClientInstance = (baseClient) => {
+    const nextId= nextClientId(baseClient)
+    baseClient.clients.push(Client.prototype.build(nextId))
+}
+const nextClientId = (baseClient) => {
+    const lastId = baseClient.clients.slice(-1)[0].client_id
+    const lastSuffix = lastId.split('-').slice(-1)[0]
+
+    if(lastId === baseClient.base_client_id || !isInteger(lastSuffix)) {
+        return `${lastId}-1`
+    } else {
+        const lastSuffixVal = parseInt(lastSuffix)
+        return `${baseClient.base_client_id}-${lastSuffixVal + 1}`
+    }
 }
 
 const loadBaseClients = () => {
@@ -40,10 +56,17 @@ const resetBaseClients = () => {
     })
 }
 
+const isInteger = (str) => {
+    if (typeof str != "string") return false // we only process strings!
+    return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
+        !isNaN(parseInt(str)) // ...and ensure strings of whitespace fail
+}
+
 module.exports = {
     setBaseClient,
     getBaseClients,
     setBaseClients,
+    duplicateClientInstance,
     loadBaseClients,
     saveBaseClients,
     resetBaseClients,

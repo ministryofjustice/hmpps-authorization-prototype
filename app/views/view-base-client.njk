@@ -44,13 +44,14 @@
         ],
         rows: presenter.all_clients_table
       }) }}
-      <div class="govuk-grid-row" style="width: 100%">
+
+      <form class="govuk-grid-row" action="/clients/{{ baseClient.base_client_id }}/instances" method="POST">
         <div class="govuk-grid-column-one-quarter">
           {{ govukButton({
             text: "Duplicate"
           }) }}
         </div>
-      </div>
+      </form>
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">

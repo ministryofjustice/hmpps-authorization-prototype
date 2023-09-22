@@ -27,6 +27,10 @@ router.get('/clients/:client_id', function(request, response) {
     client.render(request, response)
 })
 
+router.post('/clients/:base_client_id/instances', function(request, response) {
+    client.duplicateClientInstance(request, response)
+})
+
 router.get('/clients/:client_id/edit-deployment-details', function(request, response) {
     client.renderEditDeployment(request, response)
 })

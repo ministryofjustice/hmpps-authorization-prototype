@@ -1,9 +1,9 @@
-const {getBaseClients, addBaseClient, setBaseClients, setBaseClient} = require("../data/db");
+const db = require("../data/db");
 const {baseClientPresenter, addClientPresenter, deleteClientPresenter} = require("../views/helpers/presenters");
-const {setExpiry, BaseClient, Client} = require("../model/client")
+const {BaseClient, Client} = require("../model/client")
 
 const render = (request, response) =>  {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     if(baseClient) {
         response.render('view-base-client', {
@@ -19,7 +19,7 @@ const render = (request, response) =>  {
 }
 
 const renderEditDeployment = (request, response) =>  {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     response.render('edit-deployment-details', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
         // ...
@@ -28,7 +28,7 @@ const renderEditDeployment = (request, response) =>  {
 }
 
 const renderEditClientDetails = (request, response) =>  {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     response.render('edit-client-details', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
         // ...
@@ -37,7 +37,7 @@ const renderEditClientDetails = (request, response) =>  {
 }
 
 const renderEditServiceDetails = (request, response) =>  {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     response.render('edit-service-details', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
         // ...
@@ -46,7 +46,7 @@ const renderEditServiceDetails = (request, response) =>  {
 }
 
 const updateClientDetails = (request, response) => {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
     const data = request.body
 
     updateCommonDetails(baseClient, data)
@@ -88,7 +88,7 @@ const updateServiceDetails = (baseClient, data) => {
 }
 
 const updateDeploymentDetails = (request, response) => {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
     const data = request.body
 
     baseClient.deployment_details.team = data.team
@@ -145,8 +145,16 @@ const postClient = (request, response) =>  {
     response.redirect(`/clients/${baseClient.base_client_id}`)
 }
 
+const duplicateClientInstance = (request, response) => {
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
+
+    db.duplicateClientInstance(baseClient)
+
+    response.redirect(`/clients/${baseClient.base_client_id}`)
+}
+
 const renderDeleteClient = (request, response) =>  {
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
     const client = baseClient.clients.filter((item) => item.client_id === request.params.client_id)[0]
 
     response.render('delete-client-instance', { presenter: deleteClientPresenter(baseClient, client)}, function (err, html) {
@@ -156,14 +164,14 @@ const renderDeleteClient = (request, response) =>  {
 }
 const deleteClient = (request, response) => {
 
-    const baseClient = getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
     if(baseClient.clients.length > 1) {
         baseClient.clients = baseClient.clients.filter(item => item.client_id !== request.params.client_id)
-        setBaseClient(baseClient)
+        db.setBaseClient(baseClient)
         response.redirect(`/clients/${baseClient.base_client_id}`)
     } else {
-        const newBaseClients = getBaseClients().filter((item) => item.base_client_id !== request.params.base_client_id)
-        setBaseClients(newBaseClients)
+        const newBaseClients = db.getBaseClients().filter((item) => item.base_client_id !== request.params.base_client_id)
+        db.setBaseClients(newBaseClients)
         response.redirect('/')
     }
 
@@ -180,6 +188,7 @@ module.exports = {
     updateDeploymentDetails,
     renderAddClientWithGrant,
     updateServiceDetails,
+    duplicateClientInstance,
     postClient,
     deleteClient
 }
