@@ -41,6 +41,10 @@ router.get('/clients/:client_id/edit-service-details', function(request, respons
     client.renderEditServiceDetails(request, response)
 })
 
+router.get('/clients/:base_client_id/instances/:client_id/secrets', function(request, response) {
+    client.renderSecrets(request, response)
+})
+
 router.post('/clients/:client_id/edit-client-details', function(request, response) {
     client.updateClientDetails(request, response)
 })

@@ -15,7 +15,10 @@ const addBaseClient = (client) => {
 
 const duplicateClientInstance = (baseClient) => {
     const nextId= nextClientId(baseClient)
-    baseClient.clients.push(Client.prototype.build(nextId))
+    const newClient = Client.prototype.build(nextId)
+    baseClient.clients.push(newClient)
+    setBaseClient(baseClient)
+    return newClient
 }
 const nextClientId = (baseClient) => {
     const lastId = baseClient.clients.slice(-1)[0].client_id

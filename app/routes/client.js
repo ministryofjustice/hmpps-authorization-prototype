@@ -1,5 +1,5 @@
 const db = require("../data/db");
-const {baseClientPresenter, addClientPresenter, deleteClientPresenter} = require("../views/helpers/presenters");
+const {baseClientPresenter, addClientPresenter, deleteClientPresenter, secretsPresenter} = require("../views/helpers/presenters");
 const {BaseClient, Client} = require("../model/client")
 
 const render = (request, response) =>  {
@@ -40,6 +40,17 @@ const renderEditServiceDetails = (request, response) =>  {
     const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.client_id)[0]
 
     response.render('edit-service-details', { baseClient: baseClient , presenter: baseClientPresenter(baseClient)}, function (err, html) {
+        // ...
+        response.send(html)
+    })
+}
+
+const renderSecrets = (request, response) => {
+    const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
+    const client = baseClient.clients.filter((item) => item.client_id === request.params.client_id)[0]
+    const isNewBaseClient = request.query.new === 'true'
+
+    response.render('secrets', { presenter: secretsPresenter(baseClient, client, isNewBaseClient )}, function (err, html) {
         // ...
         response.send(html)
     })
@@ -138,19 +149,21 @@ const postClient = (request, response) =>  {
     }
 
     baseClient.config.allowed_ips = data.allowedIPS.split('\r\n')
-    baseClient.addClient(Client.prototype.new(baseClient.base_client_id))
 
-    addBaseClient(baseClient)
+    const newClient = Client.prototype.build(baseClient.base_client_id)
+    baseClient.addClient(newClient)
 
-    response.redirect(`/clients/${baseClient.base_client_id}`)
+    db.addBaseClient(baseClient)
+
+    response.redirect(`/clients/${baseClient.base_client_id}/instances/${newClient.client_id}/secrets?new=true`)
 }
 
 const duplicateClientInstance = (request, response) => {
     const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
 
-    db.duplicateClientInstance(baseClient)
+    const newClient = db.duplicateClientInstance(baseClient)
 
-    response.redirect(`/clients/${baseClient.base_client_id}`)
+    response.redirect(`/clients/${baseClient.base_client_id}/instances/${newClient.client_id}/secrets`)
 }
 
 const renderDeleteClient = (request, response) =>  {
@@ -184,6 +197,7 @@ module.exports = {
     renderEditServiceDetails,
     renderAddClient,
     renderDeleteClient,
+    renderSecrets,
     updateClientDetails,
     updateDeploymentDetails,
     renderAddClientWithGrant,

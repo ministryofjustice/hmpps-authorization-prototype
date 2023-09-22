@@ -1,13 +1,6 @@
 {% extends "layouts/main.html" %}
-{%- from "moj/components/header/macro.njk" import mojHeader -%}
-{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
-{% from "govuk/components/input/macro.njk" import govukInput %}
-{% from "govuk/components/select/macro.njk" import govukSelect %}
 {% from "govuk/components/button/macro.njk" import govukButton %}
 {% from "govuk/components/label/macro.njk" import govukLabel %}
-{% from "govuk/components/back-link/macro.njk" import govukBackLink %}
-{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
-{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
 
 {% set pageName="Add client" %}
 
@@ -16,11 +9,6 @@
 {% endblock %}
 
 {% block content %}
-  {{ govukBackLink({
-    text: "Back",
-    href: "/"
-  }) }}
-
   <div class="govuk-grid-row">
     <form class="govuk-grid-column-two-thirds" action="/clients/add-with-grant" method="GET">
 
@@ -42,7 +30,7 @@
           {
             value: "authorization-code",
             text: "Authorization code",
-            disabled: true
+            disabled: false
           }
         ]
       }) }}

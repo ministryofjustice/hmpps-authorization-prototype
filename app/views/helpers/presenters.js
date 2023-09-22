@@ -152,10 +152,24 @@ let deleteClientPresenter = (baseClient, client) => {
     }
 }
 
+let secretsPresenter = (baseClient, client, isNewBaseClient) => {
+    return {
+        banner: isNewBaseClient ? "Client has been created" : "Client has been duplicated",
+        baseClientURL: `/clients/${baseClient.base_client_id}`,
+        secretsTable: [
+            [{ text: "new clientId"}, {text: client.client_id}],
+            [{ text: "new clientSecret" }, { text: "%0O98l3yRS83tBpXQYV-jj<14R&Cdwi*ecqseUu1mzUkyoZdlPuwHiIc+F$E"}],
+            [{ text: "base64 clientId" }, { text: "YW5vdGhlci1kZWxldGUtdGVzdC1jbGllbnQtMg=="}],
+            [{ text: "base64 clientSecret"}, { text: "JTBPOThsM3lSUzgzdEJwWFFZVi1qajwxNFImQ2R3aSplY3FzZVV1MW16VWt5b1pkbFB1d0hpSWMrRiRF"}],
+        ]
+    }
+}
+
 module.exports = {
     indexPresenter,
     baseClientPresenter,
     addClientPresenter,
-    deleteClientPresenter
+    deleteClientPresenter,
+    secretsPresenter
 }
 
