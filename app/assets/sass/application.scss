@@ -10,3 +10,9 @@ align-bottom {
   bottom: 0;
   right: 0;
 }
+
+.extra-wide {
+  .govuk-width-container {
+    max-width: 1300px;
+  }
+}
