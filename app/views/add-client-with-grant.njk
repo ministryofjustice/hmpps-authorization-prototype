@@ -147,6 +147,15 @@
             isPageHeading: false
           }
         }) }}
+
+        {{ govukInput({
+          label: {
+            text: "Database username"
+          },
+          classes: "govuk-!-width-two-thirds",
+          id: "database-username",
+          name: "databaseUsername"
+        }) }}
       {% endif %}
 
       {% if presenter.isAuthorizationCode %}

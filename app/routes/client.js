@@ -81,6 +81,7 @@ const updateCommonDetails = (baseClient, data) => {
 }
 const updateClientCredentialsDetails = (baseClient, data) => {
     baseClient.authorities = data.authorities.split('\r\n')
+    baseClient.additional_information.databaseUsernameField = data.databaseUsername;
 }
 
 const updateAuthorizationCodeDetails = (baseClient, data) => {
@@ -144,6 +145,7 @@ const postClient = (request, response) =>  {
     baseClient.authorized_grant_types = [data.grantCode]
     baseClient.authorities = data.authorities ? data.authorities.split('\r\n') : []
     baseClient.additional_information.jiraNo = data.audit;
+    baseClient.additional_information.databaseUsernameField = data.databaseUsername;
 
     if(data.expiry.includes('expire')) {
         baseClient.setExpiry(true, data.expiryDays)

@@ -121,6 +121,16 @@
                     },
                     value: presenter.authoritiesAsText
                 }) }}
+
+                {{ govukInput({
+                    label: {
+                        text: "Database username"
+                    },
+                    classes: "govuk-!-width-two-thirds",
+                    id: "database-username",
+                    name: "databaseUsername",
+                    value: baseClient.additional_information.databaseUsernameField
+                }) }}
             {% endif %}
 
             {% if presenter.has_authorization_code %}
