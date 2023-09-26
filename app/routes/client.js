@@ -77,6 +77,7 @@ const updateCommonDetails = (baseClient, data) => {
     baseClient.scope = data.approvedScopes;
     baseClient.setExpiry(data.expiry.includes("expire"), parseInt(data.expiryDays));
     baseClient.config.allowed_ips = data.allowedIPS.split('\r\n');
+    baseClient.additional_information.jiraNo = data.audit;
 }
 const updateClientCredentialsDetails = (baseClient, data) => {
     baseClient.authorities = data.authorities.split('\r\n')
@@ -105,7 +106,6 @@ const updateDeploymentDetails = (request, response) => {
     baseClient.deployment_details.team = data.team
     baseClient.deployment_details.team_contact = data.teamContact
     baseClient.deployment_details.team_slack = data.teamSlack
-    baseClient.additional_information.jiraNo = data.jiraNo
 
     baseClient.deployment_details.hosting = data.hosting
     baseClient.deployment_details.namespace = data.namespace
@@ -142,7 +142,8 @@ const postClient = (request, response) =>  {
     baseClient.access_token_validity = data.accessTokenValidity === "custom" ? data.customAccessTokenValidity : data.accessTokenValidity
     baseClient.scope = data.approvedScopes
     baseClient.authorized_grant_types = [data.grantCode]
-    baseClient.authorities = data.authorities.split('\r\n')
+    baseClient.authorities = data.authorities ? data.authorities.split('\r\n') : []
+    baseClient.additional_information.jiraNo = data.audit;
 
     if(data.expiry.includes('expire')) {
         baseClient.setExpiry(true, data.expiryDays)

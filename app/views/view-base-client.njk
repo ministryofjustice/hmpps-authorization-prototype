@@ -100,6 +100,25 @@
         ]
       }) }}
 
+      {{ govukTable({
+        firstCellIsHeader: false,
+        head: [
+          {
+            text: "Audit trail"
+          },{
+            text: ""
+          }],
+        rows: [
+          [{
+            text: "Details"
+          },{
+            text: baseClient.additional_information.jiraNo
+          }]
+        ]
+      }) }}
+
+
+
       {% if presenter.has_client_credentials %}
       {{ govukTable({
         firstCellIsHeader: false,
@@ -291,12 +310,6 @@
             },{
             text: baseClient.deployment_details.team_slack
           }
-          ],[
-            {
-              text: "JIRA number"
-            },{
-              text: baseClient.additional_information.jiraNo
-            }
           ]
         ]
       }) }}

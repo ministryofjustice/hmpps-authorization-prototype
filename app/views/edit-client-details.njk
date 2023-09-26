@@ -85,7 +85,19 @@
                 value: baseClient.scope
             }) }}
 
-
+            <h2 class="govuk-heading-l">Audit</h2>
+            {{ govukTextarea({
+                name: "audit",
+                id: "audit",
+                label: {
+                    text: "Details",
+                    isPageHeading: false
+                },
+                hint: {
+                    text: "jira tickets, slack messages ..."
+                },
+                value: baseClient.additional_information.jiraNo
+            }) }}
 
             <h2 class="govuk-heading-l">Grant details</h2>
             {{ govukInput({
@@ -107,7 +119,7 @@
                         text: "Authorities",
                         isPageHeading: false
                     },
-                    value: presenter.authorities
+                    value: presenter.authoritiesAsText
                 }) }}
             {% endif %}
 

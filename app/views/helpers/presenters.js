@@ -103,6 +103,7 @@ let baseClientPresenter = (baseClient) => {
 
     return {
         authorities: baseClient.authorities.join("</br>"),
+        authoritiesAsText: baseClient.authorities.join("\n"),
         allowed_ips: baseClient.config.allowed_ips.join("\n"),
         web_server_redirect_uri: baseClient.web_server_redirect_uri.join("\n"),
         has_client_credentials: baseClient.authorized_grant_types.includes("client_credentials"),

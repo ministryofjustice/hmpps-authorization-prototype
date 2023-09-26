@@ -113,7 +113,18 @@
         name: "approvedScopes"
       }) }}
 
-
+      <h2 class="govuk-heading-l">Audit trail</h2>
+      {{ govukTextarea({
+        name: "audit",
+        id: "audit",
+        label: {
+          text: "Details",
+          isPageHeading: false
+        },
+        hint: {
+          text: "jira tickets, slack messages ..."
+        }
+      }) }}
 
       <h2 class="govuk-heading-l">Grant details</h2>
       {{ govukInput({
@@ -205,6 +216,9 @@
         label: {
           text: "Allowed IPs",
           isPageHeading: false
+        },
+        hint: {
+          html: "One IP address/CIDR notation per line</br>81.134.202.29/32 - mojvpn</br>35.176.93.186/32 - global-protect</br>35.178.209.113/32 - cloudplatform-1</br>3.8.51.207/32 - cloudplatform-2</br>35.177.252.54/32 - cloudplatform-3"
         },
         value: presenter.allowed_ips
       }) }}
