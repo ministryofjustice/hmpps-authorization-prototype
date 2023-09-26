@@ -9,6 +9,13 @@ let indexTableHead = () => {
             }
         },
         {
+            text: "Count",
+            classes: "app-custom-class",
+            attributes: {
+                "aria-sort": "none"
+            }
+        },
+        {
             text: "Service",
             classes: "app-custom-class",
             attributes: {
@@ -63,6 +70,9 @@ let indexTableRows = (data) => {
     return data.map(item => [
             {
                 html: `<a href="/clients/${item.base_client_id}" class="govuk-link">${item.base_client_id}</a>`
+            },
+            {
+                html: item.clients.length > 1 ? `<span class="moj-badge">${item.clients.length}</span>` : ""
             },
             {
                 text: item.deployment_details.client_type ? capitalCase(item.deployment_details.client_type): ""
