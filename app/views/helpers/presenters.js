@@ -153,8 +153,9 @@ let addClientPresenter = (grantCode) => {
     }
 }
 
-let deleteClientPresenter = (baseClient, client) => {
+let deleteClientPresenter = (baseClient, client, error) => {
     return {
+        error: error,
         baseClientId: baseClient.base_client_id,
         clientId: client.client_id,
         showWarning: baseClient.clients.length === 1,

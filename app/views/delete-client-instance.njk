@@ -22,9 +22,6 @@
 
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
-        <p class="govuk-body">
-          Confirm you want to delete {{ presenter.clientId }}
-        </p>
 
         {{ govukWarningText({
           text: "Deleted clients cannot be restored!",
@@ -33,6 +30,19 @@
 
 
     <form action="/clients/{{ presenter.baseClientId }}/instances/{{ presenter.clientId }}/delete" method="POST">
+      {{ govukInput({
+        label: {
+          text: "Confirmation"
+        },
+        hint: {
+          html: "Type <em><strong>\"" + presenter.clientId + "\"</strong></em> to confirm"
+        },
+        errorMessage: presenter.error,
+        classes: "govuk-!-width-two-thirds",
+        id: "confirm",
+        name: "confirm"
+      }) }}
+
       {{ govukButton({
         text: "Delete client instance",
         type: "submit",

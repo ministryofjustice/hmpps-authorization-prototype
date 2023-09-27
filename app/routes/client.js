@@ -172,13 +172,18 @@ const duplicateClientInstance = (request, response) => {
 const renderDeleteClient = (request, response) =>  {
     const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
     const client = baseClient.clients.filter((item) => item.client_id === request.params.client_id)[0]
-
-    response.render('delete-client-instance', { presenter: deleteClientPresenter(baseClient, client)}, function (err, html) {
+    const error = !!request.query.error
+    response.render('delete-client-instance', { presenter: deleteClientPresenter(baseClient, client, error)}, function (err, html) {
         // ...
         response.send(html)
     })
 }
 const deleteClient = (request, response) => {
+    const data = request.body
+    if(data.confirm !== request.params.client_id) {
+        response.redirect(`/clients/${request.params.base_client_id}/instances/${request.params.client_id}/delete?error=true`)
+        return
+    }
 
     const baseClient = db.getBaseClients().filter((item) => item.base_client_id === request.params.base_client_id)[0]
     if(baseClient.clients.length > 1) {
